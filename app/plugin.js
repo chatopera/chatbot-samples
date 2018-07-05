@@ -30,11 +30,42 @@ exports.getWeatherByCity = function(city, cb){
     wf.getWeatherByCity(city)
         .then((suggestions)=>{
             cb(null, {
-                text: suggestions["air"]["txt"]
+                text: suggestions["comf"]["txt"]
             })
         }, (err)=>{
             cb(null, {
                 text: `很抱歉，没有获得${city}的天气信息。`
+            })
+        })
+}
+
+
+
+exports.getAirByCity = function(city, cb){
+    debug("getAirByCity: %s", city);
+    wf.getWeatherByCity(city)
+        .then((suggestions)=>{
+            cb(null, {
+                text: suggestions["air"]["txt"]
+            })
+        }, (err)=>{
+            cb(null, {
+                text: `很抱歉，没有获得${city}的空气信息。`
+            })
+        })
+}
+
+
+exports.getSportByCity = function(city, cb){
+    debug("getSportByCity: %s", city);
+    wf.getWeatherByCity(city)
+        .then((suggestions)=>{
+            cb(null, {
+                text: suggestions["sport"]["txt"]
+            })
+        }, (err)=>{
+            cb(null, {
+                text: `很抱歉，没有获得${city}的信息。`
             })
         })
 }
