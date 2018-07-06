@@ -69,3 +69,17 @@ exports.getSportByCity = function(city, cb){
             })
         })
 }
+
+exports.getDresscodeByCity = function(city, cb){
+    debug("getDresscodeByCity: %s", city);
+    wf.getWeatherByCity(city)
+        .then((suggestions)=>{
+            cb(null, {
+                text: suggestions["drsg"]["txt"]
+            })
+        }, (err)=>{
+            cb(null, {
+                text: `很抱歉，没有获得${city}的信息。`
+            })
+        })
+}
