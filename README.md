@@ -3,8 +3,19 @@
 本示例程序是使用[多轮对话设计器](https://www.chatopera.com/product/conversation-designer)设计导出的项目文件。
 该项目打包后可导入到[智能问答引擎](https://www.chatopera.com/product/conversation-engine)中，作为多轮对话应用的运行时环境。
 
+
+
+
 # 说明
 该示例程序实现一个能回答天气情况的聊天机器人。
+
+# 实现过程
+
+TODO 写一篇文章描述实现过程。
+
+* 在**多轮对话设计器**中测试
+
+![](./assets/WechatIMG4918.jpeg)
 
 
 # 打包
