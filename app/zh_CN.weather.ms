@@ -12,12 +12,11 @@
 
 // 天气
 
-+ [今天] (天气|气候) [怎么样]
-- {@__wf_guide_}
-
 + 今天 (*) 天气 [怎么样]
 - {keep} ^getWeatherByCity(<cap1>)
 
++ [今天] (天气|气候) [怎么样]
+- {@__wf_guide_}
 
 + (*) 今天天气 [怎么样]
 - {keep} ^getWeatherByCity(<cap1>)
@@ -41,7 +40,6 @@
 + (*) 今天空气 [怎么样]
 - {keep} ^getAirByCity(<cap1>)
 
-
 + 今天 (*) 空气 [怎么样]
 - {keep} ^getAirByCity(<cap1>)
 
@@ -59,7 +57,6 @@
 + (*) 今天适(合|宜)运动(么|吗)
 - {keep} ^getSportByCity(<cap1>)
 
-
 + 今天 (*) 适(合|宜)运动(么|吗)
 - {keep} ^getSportByCity(<cap1>)
 
@@ -74,11 +71,12 @@
 + [今天] 适(合|宜)穿什么
 - {@__wf_guide_dresscode}
 
++ (*) 今天适(合|宜)穿什么
+- {keep} ^getDresscodeByCity(<cap1>)
+
 + [今天] (*) 适(合|宜)穿什么
 - {keep} ^getDresscodeByCity(<cap1>)
 
-+ (*) [今天] 适(合|宜)穿什么
-- {keep} ^getDresscodeByCity(<cap1>)
 
 + __wf_guide_dresscode
 - {keep} 添加城市名哦，比如“今天北京适合穿什么”或者“北京今天适合穿什么”

@@ -33,6 +33,7 @@ exports.getWeatherByCity = function(city, cb){
                 text: suggestions["comf"]["txt"]
             })
         }, (err)=>{
+            debug("error:%j", err)
             cb(null, {
                 text: `很抱歉，没有获得${city}的天气信息。`
             })
@@ -75,7 +76,7 @@ exports.getDresscodeByCity = function(city, cb){
     wf.getWeatherByCity(city)
         .then((suggestions)=>{
             cb(null, {
-                text: suggestions["drsg"]["txt"]
+                text: config["HEWEATHER_IS_BRIEF"]?suggestions["drsg"]["brf"]:suggestions["drsg"]["txt"]
             })
         }, (err)=>{
             cb(null, {
