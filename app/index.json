@@ -4,7 +4,15 @@
     "primaryLanguage": "zh_CN",
     "conversations": [
     {
+        "name": "profile",
+        "enabled": true
+    },
+    {
         "name": "weather",
+        "enabled": true
+    },
+    {
+        "name": "chatopera",
         "enabled": true
     }],
     "config": {
