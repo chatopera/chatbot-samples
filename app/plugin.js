@@ -76,7 +76,7 @@ exports.getDresscodeByCity = function(city, cb){
     wf.getWeatherByCity(city)
         .then((suggestions)=>{
             cb(null, {
-                text: config["HEWEATHER_IS_BRIEF"]?suggestions["drsg"]["brf"]:suggestions["drsg"]["txt"]
+                text: suggestions["drsg"]["txt"]
             })
         }, (err)=>{
             cb(null, {

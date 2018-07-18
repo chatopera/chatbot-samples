@@ -25,7 +25,7 @@ BOTVERSION=$(cat $BOTINDEX \
 
 echo "Chatbot name:" $BOTNAME", version:" $BOTVERSION
 
-ZIPNAME=$BOTNAME-$BOTVERSION-conversations.zip
+ZIPNAME=$BOTNAME-$BOTVERSION-conversations.c66
 ZIPPATH=$baseDir/../$ZIPNAME
 
 cd $baseDir/..

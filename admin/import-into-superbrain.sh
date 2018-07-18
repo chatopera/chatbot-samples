@@ -23,7 +23,7 @@ fi
 
 $baseDir/package.sh
 cd $baseDir/..
-ZIPFILE=`ls *.zip`
+ZIPFILE=`ls *.c66`
 set -x
 curl -i -X POST -H "Content-Type: multipart/form-data" \
     -F "droplet=@$ZIPFILE" \
