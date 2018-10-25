@@ -1,7 +1,7 @@
 # Chatopera 多轮对话示例程序
 
-本示例程序是使用[多轮对话设计器](https://www.chatopera.com/product/conversation-designer)设计导出的项目文件。
-该项目打包后可导入到[智能问答引擎](https://www.chatopera.com/product/conversation-engine)中，作为多轮对话应用的运行时环境。
+本示例程序是使用[多轮对话设计器](https://docs.chatopera.com/conversation-designer.html)设计导出的项目文件。
+该项目打包后可导入到[智能问答引擎](https://docs.chatopera.com/chatbot-engine.html)中，作为多轮对话应用的运行时环境。
 
 
 # 说明
