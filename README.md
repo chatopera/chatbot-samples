@@ -48,6 +48,40 @@
     └── trace.sh                   #    实时打印机器人的日志
 ```
 
+**该示例程序有两个主要用途：体验 Chatopera 机器人；定制化开发机器人。**
+
+**在定制化开发环节，支持两种开发方法：1）使用 多轮对话设计器；2）基于 Node.js 环境开发。**
+
+## 体验
+
+使用示例程序体验 Chatopera 机器人的效果，作为一个定制化开发聊天机器人的产品，Chatopera 机器人用户体验怎么样呢？
+
+您可以基于这些示例程序进行体验。
+
+### 创建机器人
+
+登陆 [Chatopera 云服务](https://bot.chatopera.com)，创建机器人，选择语言（中文简体，中文繁体或英语）。
+
+> 根据体验的示例程序的语言选择语言，查看每个示例程序的 botarchive/index.json。
+
+### 下载多轮对话文件
+
+多轮对话文件在每个示例程序目录的`releases`文件夹内，以 `.c66` 文件结尾。
+
+### 导入多轮对话
+
+在 [Chatopera 云服务](https://bot.chatopera.com) 进入刚刚创建的机器人详情，从一级菜单导航至`多轮对话`。
+
+点击`导入`，上传刚刚下载的`.c66`文件。
+
+![](./assets/4.jpg)
+
+### 测试对话
+
+在 [Chatopera 云服务](https://bot.chatopera.com) 进入机器人测试对话页面，选择 `多轮对话`，开始测试。
+
+![](./assets/3.jpg)
+
 ## 基于 多轮对话设计器 开发
 
 首先，安装和下载多轮对话设计器：
@@ -60,9 +94,25 @@
 
 ## 基于 Node.js 开发
 
-[Node.js](https://nodejs.org/download/) 是一个 JavaScript 运行时环境，基于 Node.js 可以快速开发后端或前段应用。 Chatopera 机器人平台提供的示例程序，支持使用 **多轮对话编辑器** 或 [Node.js]环境下调试多轮对话。
+[Node.js](https://nodejs.org/download/) 是一个 JavaScript 运行时环境，基于 Node.js 可以快速开发后端或前段应用。 Chatopera 机器人平台提供的示例程序，支持使用 **多轮对话编辑器** 或 [Node.js](https://nodejs.org/download/)环境下调试多轮对话。
 
-**多轮对话编辑器** 使用更方便，但是基于[Node.js]的开发环境，对于 Node.js 用户或软件开发者更友好。
+**多轮对话编辑器** 使用更方便，但是基于[Node.js](https://nodejs.org/download/)的开发环境，对于 Node.js 用户或软件开发者更友好。
+
+在 Node.js 开发下，除了安装 Node.js 外，还需要
+
+- 文本编辑器，比如 [Visual Code Studio](https://code.visualstudio.com/)，[Sublime Text](https://www.sublimetext.com/)，etc。
+
+- Git
+
+- 命令行控制台，Bash: Git Bash, Windows 用户; Terminal, Mac 用户；Linux Shell。
+
+`命令行控制台`就是 Linux Shell 工具，Mac 下内置 Terminal，可以安装 [iterm2](https://www.iterm2.com/)。
+
+### 下载代码
+
+```
+git@github.com:chatopera/chatbot-samples.git
+```
 
 ### 配置
 
@@ -121,29 +171,41 @@ scripts/archive.sh 文件夹名
 
 打包后得到.c66 文件，在**聊天机器人多轮对话控制台**上传。
 
-### 集成
+### 撰写脚本和函数
 
-参考系统集成：[链接](https://docs.chatopera.com/products/chatbot-platform/integration.html)
+更新 `botarchive` 下的脚本和函数文件，实现对话逻辑。
+
+教程和语法参考[文档中心：多轮对话](https://docs.chatopera.com/products/chatbot-platform/conversation.html)。
+
+### 集成
 
 API - 检索多轮对话。
 
 ### 快速开始
 
+以 Node.js SDK 为例。
+
+```
+npm install @chatopera/sdk
+```
+
+开始聊天。
+
 ```
 const Chatbot = require("@chatopera/sdk").Chatbot;
 client = new Chatbot(clientid, clientsecret, provider);
+
 # 请求多轮对话接口
+
 bot.command("POST", "/conversation/query", {
-        fromUserId: username,
-        textMessage: answers.send,
-        faqBestReplyThreshold: faqBest,
-        faqSuggReplyThreshold: faqSugg,
-    })
+fromUserId: username,
+textMessage: answers.send,
+faqBestReplyThreshold: faqBest,
+faqSuggReplyThreshold: faqSugg,
+})
 ```
 
-# 进阶指南
-
-教程和语法参考[文档中心：多轮对话](https://docs.chatopera.com/products/chatbot-platform/conversation.html)。
+其它语言 SDK 和更多 API 接口介绍，系统集成详情参考：[链接](https://docs.chatopera.com/products/chatbot-platform/integration.html)。
 
 # LICENSE
 
