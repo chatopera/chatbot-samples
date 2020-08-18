@@ -1,0 +1,12 @@
+{
+  "name": "SampleChatbot",
+  "version": "1.0.0",
+  "primaryLanguage": "zh_CN",
+  "conversations": [
+    {
+      "name": "greetings",
+      "enabled": true
+    }
+  ],
+  "config": {}
+}

@@ -1,0 +1,271 @@
+[
+  {
+    "docId": "AXURNVevEy2xfNJEUjTs",
+    "categories": [],
+    "enabled": true,
+    "post": "活动到什么时候？",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "下周末前都可以来领取的。"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "docId": "AXURNQrsEy2xfNJEUjTp",
+    "categories": [],
+    "enabled": true,
+    "post": "什么礼品，什么餐具",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "礼品是价值128元的七彩珍珠碗。"
+      }
+    ],
+    "similarQuestions": [
+      "什么餐具",
+      "什么礼品"
+    ]
+  },
+  {
+    "docId": "AXURNJffEy2xfNJEUjTi",
+    "categories": [],
+    "enabled": true,
+    "post": "早就退保了",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "没关系的，只要您之前购买过车险、寿险、银行理财，都可以免费领取的。"
+      }
+    ],
+    "similarQuestions": [
+      "早退了",
+      "不是你们的客户",
+      "现在没存钱在你们家",
+      "现在没你家的保险了",
+      "你家的保险退了",
+      "早就退保了，保险已经退了"
+    ]
+  },
+  {
+    "docId": "AXURMwSXEy2xfNJEUjTd",
+    "categories": [],
+    "enabled": true,
+    "post": "你声音挺好听啊，能请你吃饭吗，出来吃饭",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "谢谢，我这人比较容易害羞的。"
+      }
+    ],
+    "similarQuestions": [
+      "出来吃饭",
+      "能请你吃饭吗",
+      "能请你吃饭吗，出来吃饭",
+      "你声音挺好听啊"
+    ]
+  },
+  {
+    "docId": "AXURMkDGEy2xfNJEUjTc",
+    "categories": [],
+    "enabled": true,
+    "post": "等一下",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "哦，好的"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "docId": "AXURMf9WEy2xfNJEUjTb",
+    "categories": [],
+    "enabled": true,
+    "post": "有没有在听我说话",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "噢，不好意思，您请说！"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "docId": "AXURMZICEy2xfNJEUjTR",
+    "categories": [],
+    "enabled": true,
+    "post": "你发个短信/微信给我吧",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "这样吧，稍后我把公司地址和接待人员的电话发送到您的手机上，上面有联系方式和相关资料，您留意查收，好吧？"
+      }
+    ],
+    "similarQuestions": [
+      "资料发我先看下",
+      "资料发我先看下",
+      "发我资料看下",
+      "发我资料看下",
+      "怎么联系你",
+      "怎么联系你",
+      "手机号码，联系方式"
+    ]
+  },
+  {
+    "docId": "AXURMDz_Ey2xfNJEUjTQ",
+    "categories": [],
+    "enabled": true,
+    "post": "你们怎么有我号码的？ ",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "您之前应该是购买过保险或银行理财，所以我才会有您的电话。如果不巧打扰到您，非常抱歉了。"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "docId": "AXURL-YfEy2xfNJEUjTP",
+    "categories": [],
+    "enabled": true,
+    "post": "你是不是机器人？",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "这个不重要哦，致电给您只是想把我们这个客户回馈活动通知到您，希望您能来参与。"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "docId": "AXURL5WtEy2xfNJEUjTL",
+    "categories": [],
+    "enabled": true,
+    "post": "你太不专业了，这都不知道",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "不好意思，我这边也是新来的，其他问题稍后安排我们资深的客户经理联系您沟通，好吧？"
+      }
+    ],
+    "similarQuestions": [
+      "保险产品，有什么",
+      "有什么",
+      "了解/咨询/购买/介绍产品"
+    ]
+  },
+  {
+    "docId": "AXURLrOLEy2xfNJEUjTK",
+    "categories": [],
+    "enabled": true,
+    "post": "你多大了？",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "老板，我是标准的90后呢。"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "docId": "AXURLmnGEy2xfNJEUjTJ",
+    "categories": [],
+    "enabled": true,
+    "post": "你叫什么名字",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "我姓王，您可以叫我小王。"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "docId": "AXURLhKTEy2xfNJEUjTG",
+    "categories": [],
+    "enabled": true,
+    "post": "你们是不是骗子啊？",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "您多虑了，我们这是xxx，邀请您过来只是免费领取一份我们为您准备的精美礼品。 "
+      }
+    ],
+    "similarQuestions": [
+      "靠谱吗？ ",
+      "你们是不是骗子啊？靠谱吗？ "
+    ]
+  },
+  {
+    "docId": "AXURLZDxEy2xfNJEUjTD",
+    "categories": [],
+    "enabled": true,
+    "post": "要花钱吗，收费，费用，礼品要钱吗",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "礼品是免费的呢，不收取您任何费用的，您放心好了！"
+      }
+    ],
+    "similarQuestions": [
+      "礼品要钱吗",
+      "要花钱吗"
+    ]
+  },
+  {
+    "docId": "AXURLQmbEy2xfNJEUjS6",
+    "categories": [],
+    "enabled": true,
+    "post": "改天去，那我过去下",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "好的，那稍后我把公司地址和接待人员的电话发送到您的手机上，您留意查收，有问题随时联系。那先这样了，祝您生活愉快，再见！"
+      }
+    ],
+    "similarQuestions": [
+      "可以考虑",
+      "面谈",
+      "见面聊",
+      "下午去",
+      "上午去",
+      "后天过去",
+      "明天过去",
+      "过来看一下，明天过去，后天过去，上午去，下午去，见面聊, 当面聊, 面谈，可以考虑"
+    ]
+  },
+  {
+    "docId": "AXURKwpEEy2xfNJEUjS3",
+    "categories": [],
+    "enabled": true,
+    "post": "你们公司在哪里？",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "我们地址在xxx，交通很方便的。"
+      }
+    ],
+    "similarQuestions": [
+      "怎么去你公司？",
+      "公司地址，怎么去你公司？"
+    ]
+  },
+  {
+    "docId": "AXURKnwgEy2xfNJEUjS0",
+    "categories": [],
+    "enabled": true,
+    "post": "你们公司叫什么？",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "我们这边是xxx的，来电是因为公司现在有个回馈客户的活动，有一套价值128元的精美餐具赠送给您，所以特地来电通知您尽早过来领取。"
+      }
+    ],
+    "similarQuestions": [
+      "平台介绍",
+      "公司介绍"
+    ]
+  }
+]

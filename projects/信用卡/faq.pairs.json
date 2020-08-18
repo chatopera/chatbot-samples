@@ -1,0 +1,301 @@
+[
+  {
+    "docId": "AXUSR2krEy2xfNJEUjad",
+    "categories": [],
+    "enabled": true,
+    "post": "你们现在还在上班吗",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "是呀，您需要的话，我现在就可以发送短信给你。"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "docId": "AXUSRxr6Ey2xfNJEUjaa",
+    "categories": [],
+    "enabled": true,
+    "post": "有年费吗？年费怎么收",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "我们这张卡是免年费的，请您放心。"
+      }
+    ],
+    "similarQuestions": [
+      "年费怎么收",
+      "有年费吗？"
+    ]
+  },
+  {
+    "docId": "AXUSRqxfEy2xfNJEUjaX",
+    "categories": [],
+    "enabled": true,
+    "post": "办理费用，收不收钱",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "为您办理信用卡是免费的，没有任何手续费。"
+      }
+    ],
+    "similarQuestions": [
+      "收不收钱",
+      "办理费用"
+    ]
+  },
+  {
+    "docId": "AXUSRizREy2xfNJEUjaW",
+    "categories": [],
+    "enabled": true,
+    "post": "为什么不用银行客服电话给我来电",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "这是我的电话号码，稍候我可以让银行给您来电，请您注意接通。"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "docId": "AXUSRda0Ey2xfNJEUjaT",
+    "categories": [],
+    "enabled": true,
+    "post": "好处， 为什么要选你们",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "这边为您推荐的也是市场占有率高，活动多，额度也比较高的银行信用卡，而且办理起来资料简单，点击短信链接在线申请，方便快捷，后期还款也方便，您可以考虑看看的。"
+      }
+    ],
+    "similarQuestions": [
+      "好处",
+      "为什么要选你们"
+    ]
+  },
+  {
+    "docId": "AXUSRWkpEy2xfNJEUjaS",
+    "categories": [],
+    "enabled": true,
+    "post": "利息多少",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "您好，后期使用的话您到还款日把钱全额还上就不会产生利息了。"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "docId": "AXUSRNa3Ey2xfNJEUjaQ",
+    "categories": [],
+    "enabled": true,
+    "post": " 多久拿到卡",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "银行上门后，当天会有审核结果，一般7天内会收到卡片。"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "docId": "AXUSRIhXEy2xfNJEUjaP",
+    "categories": [],
+    "enabled": true,
+    "post": "有些什么卡",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "此次邀请您办理的是白金卡，其他卡种您可以通过短信链接了解一下。"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "docId": "AXUSRDFaEy2xfNJEUjaK",
+    "categories": [],
+    "enabled": true,
+    "post": "流程，  要求， 材料，上门",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "流程很简单，您需要的办理的话，直接通过发送给您的手机短信链接填写资料即可，只需要一分钟就可以完成填写。"
+      }
+    ],
+    "similarQuestions": [
+      "要求",
+      "上门",
+      " 材料",
+      "流程"
+    ]
+  },
+  {
+    "docId": "AXUSQ2t5Ey2xfNJEUjaG",
+    "categories": [],
+    "enabled": true,
+    "post": "你声音挺好听啊，能请你吃饭吗 ",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "谢谢，我这人比较容易害羞的。"
+      }
+    ],
+    "similarQuestions": [
+      "能请你吃饭吗 ",
+      "你声音挺好听啊"
+    ]
+  },
+  {
+    "docId": "AXUSQvZ8Ey2xfNJEUjaF",
+    "categories": [],
+    "enabled": true,
+    "post": "等一下",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "哦，好的。"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "docId": "AXUSQrtTEy2xfNJEUjaE",
+    "categories": [],
+    "enabled": true,
+    "post": "你有没有在听我说话？",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "哦，不好意思，您请讲！ 我在听"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "docId": "AXUSQlb0Ey2xfNJEUjaB",
+    "categories": [],
+    "enabled": true,
+    "post": "你发个短信／微信给我",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "这样吧，稍后安排我们客户经理给您发个短信，上面有联系方式和相关资料，您先看下，有问题随时沟通，好吧？"
+      }
+    ],
+    "similarQuestions": [
+      "你发个微信给我",
+      "你发个短信给我"
+    ]
+  },
+  {
+    "docId": "AXUSQcGsEy2xfNJEUjaA",
+    "categories": [],
+    "enabled": true,
+    "post": "你们怎么有我号码的？",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "我们是电脑随机拨号码段的，如果不巧打扰到您，非常抱歉了。"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "docId": "AXUSQWzYEy2xfNJEUjZ_",
+    "categories": [],
+    "enabled": true,
+    "post": "你是不是机器人？",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "您真聪明，我是机器人，我想把好的信用卡服务推荐给您。"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "docId": "AXUSQReTEy2xfNJEUjZ8",
+    "categories": [],
+    "enabled": true,
+    "post": "你太不专业了，这都不知道？",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "不好意思哦，我这边是负责确定客户意向的，稍后安排我们专业的银行客户经理再联系您为您解答，好吧？"
+      }
+    ],
+    "similarQuestions": [
+      "这都不知道？",
+      "你太不专业了"
+    ]
+  },
+  {
+    "docId": "AXUSQJUpEy2xfNJEUjZ7",
+    "categories": [],
+    "enabled": true,
+    "post": "你多大了？",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "我是标准的90后呢。"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "docId": "AXUSQCQOEy2xfNJEUjZ5",
+    "categories": [],
+    "enabled": true,
+    "post": "你叫什么名字？",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "我姓陶，您叫我小陶就可以了。"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "docId": "AXUSP7eqEy2xfNJEUjZ1",
+    "categories": [],
+    "enabled": true,
+    "post": "你们是不是骗子啊？靠谱吗？",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "办理信用卡不收您任何费用的，我们发送的短信链接都是兴业银行的官方网址，您可以当面核查，不用担心。"
+      }
+    ],
+    "similarQuestions": [
+      "靠谱吗？",
+      "你们是不是骗子啊？"
+    ]
+  },
+  {
+    "docId": "AXUSPzl-Ey2xfNJEUjZ0",
+    "categories": [],
+    "enabled": true,
+    "post": "公司地址",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "兴业银行营业网点很多的，您可以在百度上查到的。"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "docId": "AXUSPu7nEy2xfNJEUjZz",
+    "categories": [],
+    "enabled": true,
+    "post": "公司介绍",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "我这边是兴业银行信用卡中心的，来电是想邀请您办理兴业银行白金信用卡，商户优惠活动也很多，您可以申请一张备用的。"
+      }
+    ],
+    "similarQuestions": []
+  }
+]

@@ -1,0 +1,20 @@
+[
+ {
+    "docId": "AWlYsLOHhKGn47Y-5ttn",
+    "categories": [],
+    "enabled": true,
+    "post": "今天天气怎么样",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "routeDirectReply#[\"weather\",\"$ctx.textMessage$\"]"
+      }
+    ],
+    "similarQuestions": [
+      "今天哈尔滨天气怎么样",
+      "今天北京天气怎么样",
+      "今天武汉天气怎么样",
+      "今天广州天气怎么样"
+    ]
+  }
+]

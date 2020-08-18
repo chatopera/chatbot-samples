@@ -1,12 +1,11 @@
-# Chatopera 多轮对话示例程序
+# Chatopera 对话模板
 
-本源码库提供多个示例程序。
+本源码库提供多个 **对话模板** 项目。
 
 基于这些源码程序，您可以：
 
 - 快速掌握 Chatopera 对话机器人开发，实现智能问答，智能客服等应用；
-
-- 以示例程序为模版，学习最佳实践，开发多轮对话；
+  以对话模板为脚手架，学习最佳实践，开发多轮对话；
 
 - 快速掌握 Chatopera 机器人的系统集成。
 
@@ -14,33 +13,63 @@
 
 - 注册 [Chatopera 云服务](https://bot.chatopera.com)；
 
-- 安装 [多轮对话设计器](https://docs.chatopera.com/products/chatbot-platform/conversation.html)。
+- 安装 [多轮对话设计器](https://docs.chatopera.com/products/chatbot-platform/conversation.html#%E5%A4%9A%E8%BD%AE%E5%AF%B9%E8%AF%9D%E8%AE%BE%E8%AE%A1%E5%99%A8) （**兼容 Mac 和 Windows 操作系统**）。
 
-# 说明
+> 提示：Chatopera 云服务是 Chatopera 机器人平台的公有云；如果您使用私有部署的 Chatopera 机器人平台，请用部署后的服务地址。
 
-| 程序   | 位置                                 | 功能                                           |
-| ------ | ------------------------------------ | ---------------------------------------------- |
-| 小叮当 | [projects/小叮当](./projects/小叮当) | 该示例程序实现一个能回答天气情况的聊天机器人。 |
+## 快速开始
 
-进入目录查看快速开始。
+使用 Chatopera 对话模板定制聊天机器人的流程如下：
 
-## 示例程序目录结构
+- 注册 Chatopera 云服务：[https://bot.chatopera.com](https://bot.chatopera.com)
+- 下载安装[多轮对话设计器](https://docs.chatopera.com/products/chatbot-platform/conversation.html#%E5%A4%9A%E8%BD%AE%E5%AF%B9%E8%AF%9D%E8%AE%BE%E8%AE%A1%E5%99%A8)
+- 在 Chatopera 云服务上创建机器人
+- 在多轮对话设计器上添加机器人
+- 针对任意模板
+
+  - 下载机器人知识库导入文件 faq.json
+  - 下载机器人多轮对话 c66 文件
+  - 导入知识库 faq.json
+  - 导入多轮对话 c66
+
+- 在 Chatopera 云服务上测试和体验
+- 使用 **多轮对话设计器** 更新、调试多轮对话
+
+关于 faq.json 和 多轮对话 c66 文件参考下文更多介绍。
+
+## 模板目录
+
+| 程序        | 语言  | 位置                                           | 功能                                                                           |
+| ----------- | ----- | ---------------------------------------------- | ------------------------------------------------------------------------------ |
+| GuessNumber | en_US | [projects/GuessNumber](./projects/GuessNumber) | 小游戏， Guess the secret number in the bot's hat.                             |
+| 天气查询    | zh_CN | [projects/天气查询](./projects/天气查询)       | 实现一个能回答天气情况的聊天机器人                                             |
+| 活动通知    | zh_CN | [projects/活动通知](./projects/活动通知)       | 实现一个能通知用户展会活动的聊天机器人                                         |
+| 招聘面试    | zh_CN | [projects/招聘面试](./projects/招聘面试)       | 进行工作面试：提问技能知识、评估性格和心理素质，发送邮件报告面试过程。         |
+| 小笑话      | zh_CN | [projects/小笑话](./projects/小笑话)           | 发送“笑话”，机器人返回一个笑话，逗您一乐。                                     |
+| 闲聊        | zh_CN | [projects/闲聊](./projects/闲聊)               | 闲聊，寒暄，6，000+ 条对话语料，修改 [faq.json](projects/闲聊/faq.json) 追加。 |
+
+查看[所有模板](./projects)。
+
+**对话模板**目录结构
 
 ```
 .
-├── README.md
-├── botarchive
+├── README.md                      # 模板描述文件
+├── botarchive                     # 多轮对话 nodejs 项目
 │   ├── index.json                 # 项目描述
 │   ├── plugin.js                  # 函数
 │   ├── zh_CN.chatopera.ms         # 话题脚本 1
 │   ├── zh_CN.profile.ms           # 话题脚本 2
 │   └── zh_CN.weather.ms           # 话题脚本 N
 ├── package.json                   # 基于Node.js开发时的环境依赖描述
+├── faq.pairs.json                 # 知识库导入文件，包含问答对、扩展问等
+├── flow.mdj                       # UML对话流程文件，描述对话流程
+├── flow.xlsx                      # Excel话术文件，描述对话流程
 ├── releases                       # 版本目录
-│   └── ${应用名字}-1.0.0.c66        # 版本分发包
+│   └── *.c66                      # 对话应用发布包，c66 文件
 ├── sample.env                     # 基于Node.js开发时的机器人远程调试配置信息
 └── scripts                        #    基于Node.js开发时的工具脚本
-    ├── archive.sh                 #    打包，将 botarchive 制作为发布包
+    ├── archive.sh                 #    打包，将 botarchive 制作为 c66 发布包
     ├── bot                        #    bot命令行工具 wrapper
     ├── chat.sh                    #    和机器人连接，测试对话
     ├── deploy.sh                  #    将 botarchive 内容更新到远程机器人
@@ -48,136 +77,23 @@
     └── trace.sh                   #    实时打印机器人的日志
 ```
 
-**该示例程序有两个主要用途：体验 Chatopera 机器人；定制化开发机器人。**
+> 提示：botarchive 文件夹 <- 解压 - zip - 压缩 -> c66 文件。
 
-**在定制化开发环节，支持两种开发方法：1）使用 多轮对话设计器；2）基于 Node.js 环境开发。**
+有两个主要用途：**体验 Chatopera 机器人**；**定制化开发机器人**。
 
-## 体验
+|                  |                                     |                                           |
+| ---------------- | ----------------------------------- | ----------------------------------------- |
+| 体验机器人服务   |                                     |                                           |
+|                  | 体验对话模板机器人的效果            | [参考文档](./docs/import_bot_to_cloud.md) |
+| 定制化开发机器人 |                                     |                                           |
+|                  | 基于 多轮对话设计器 开发 **(推荐)** | [参考文档](./docs/development_cde.md)     |
+|                  | 基于 Node.js 开发                   | [参考文档](./docs/development_nodejs.md)  |
 
-使用示例程序体验 Chatopera 机器人的效果，作为一个定制化开发聊天机器人的产品，Chatopera 机器人用户体验怎么样呢？
+在定制化开发环节，支持两种开发方法：1）使用 多轮对话设计器；2）基于 Node.js 环境开发。
 
-您可以基于这些示例程序进行体验。
+两种方法支持的功能是一致的，基于多轮对话设计器更被官方推荐。虽然 _基于 Node.js 环境开发_ 对程序员更友好，但是将来会以 _多轮对话设计器_ 更新为主。
 
-### 创建机器人
-
-登陆 [Chatopera 云服务](https://bot.chatopera.com)，创建机器人，选择语言（中文简体，中文繁体或英语）。
-
-> 根据体验的示例程序的语言选择语言，查看每个示例程序的 botarchive/index.json。
-
-### 下载多轮对话文件
-
-多轮对话文件在每个示例程序目录的`releases`文件夹内，以 `.c66` 文件结尾。
-
-### 导入多轮对话
-
-在 [Chatopera 云服务](https://bot.chatopera.com) 进入刚刚创建的机器人详情，从一级菜单导航至`多轮对话`。
-
-点击`导入`，上传刚刚下载的`.c66`文件。
-
-![](./assets/4.jpg)
-
-### 测试对话
-
-在 [Chatopera 云服务](https://bot.chatopera.com) 进入机器人测试对话页面，选择 `多轮对话`，开始测试。
-
-![](./assets/3.jpg)
-
-## 基于 多轮对话设计器 开发
-
-首先，安装和下载多轮对话设计器：
-
-[安装教程](https://docs.chatopera.com/products/chatbot-platform/conversation.html#%E5%A4%9A%E8%BD%AE%E5%AF%B9%E8%AF%9D%E8%AE%BE%E8%AE%A1%E5%99%A8)
-
-然后，进入示例程序，比如 **小叮当**，下载 `releases` 文件，`releases`文件以`.c66`结尾。
-
-最后，打开多轮对话设计器，点击“导入”，选择`.c66`文件。
-
-## 基于 Node.js 开发
-
-[Node.js](https://nodejs.org/download/) 是一个 JavaScript 运行时环境，基于 Node.js 可以快速开发后端或前段应用。 Chatopera 机器人平台提供的示例程序，支持使用 **多轮对话编辑器** 或 [Node.js](https://nodejs.org/download/)环境下调试多轮对话。
-
-**多轮对话编辑器** 使用更方便，但是基于[Node.js](https://nodejs.org/download/)的开发环境，对于 Node.js 用户或软件开发者更友好。
-
-在 Node.js 开发下，除了安装 Node.js 外，还需要
-
-- 文本编辑器，比如 [Visual Code Studio](https://code.visualstudio.com/)，[Sublime Text](https://www.sublimetext.com/)，etc。
-
-- Git
-
-- 命令行控制台，Bash: Git Bash, Windows 用户; Terminal, Mac 用户；Linux Shell。
-
-`命令行控制台`就是 Linux Shell 工具，Mac 下内置 Terminal，可以安装 [iterm2](https://www.iterm2.com/)。
-
-### 下载代码
-
-```
-git@github.com:chatopera/chatbot-samples.git
-```
-
-### 配置
-
-基于 Node.js 开发时，配置机器人连接信息。
-
-```
-cd projects/示例机器人项目
-cp sample.env .env # 编辑 .env 文件
-```
-
-修改 `.env` 文件。
-
-| key                | default                   | description                            |
-| ------------------ | ------------------------- | -------------------------------------- |
-| BOT_PROVIDER       | https://bot.chatopera.com | BOT 服务地址                           |
-| BOT_CLIENT_ID      | 无默认，必填              | 从 PROVIDER 创建机器人，获得           |
-| BOT_SECRET         | 无默认，必填              | 从 PROVIDER 创建机器人，获得           |
-| BOT_USERNAME       | testuser                  | 测试对话的用户                         |
-| BOT_FAQ_BEST_REPLY | 0.8                       | 知识库最佳回复阀值                     |
-| BOT_FAQ_SUGG_REPLY | 0.6                       | 知识库建议回复阀值                     |
-| BOT_TRACE_LEVEL    | DEBUG                     | trace 跟踪服务器端机器人，日志输出级别 |
-
-### 部署
-
-```
-scripts/deploy.sh 文件夹名
-```
-
-将部署文件夹的内容，使用 .env 文件中的远程机器人配置信息。
-
-### 对话
-
-```
-scripts/chat.sh 文件夹名
-```
-
-将启动聊天窗口，使用 .env 文件中的远程机器人配置信息。
-
-### 查看日志
-
-调试脚本/函数过程中，实时查看日志，日志信息包括：脚本部署更新情况；函数中 debug 的输出。
-
-```
-scripts/trace.sh 文件夹名
-```
-
-将启动日志窗口，使用 .env 文件中的远程机器人配置信息。
-
-### 打包
-
-```
-scripts/archive.sh 文件夹名
-```
-
-将打包文件夹内的 `botarchive`。
-
-打包后得到.c66 文件，在**聊天机器人多轮对话控制台**上传。
-
-### 撰写脚本和函数
-
-更新 `botarchive` 下的脚本和函数文件，实现对话逻辑。
-
-教程和语法参考[文档中心：多轮对话](https://docs.chatopera.com/products/chatbot-platform/conversation.html)。
-
-### 集成
+## 系统集成
 
 API - 检索多轮对话。
 
@@ -198,14 +114,59 @@ client = new Chatbot(clientid, clientsecret, provider);
 # 请求多轮对话接口
 
 bot.command("POST", "/conversation/query", {
-fromUserId: username,
-textMessage: answers.send,
-faqBestReplyThreshold: faqBest,
-faqSuggReplyThreshold: faqSugg,
+    fromUserId: username,
+    textMessage: answers.send,
+    faqBestReplyThreshold: faqBest,
+    faqSuggReplyThreshold: faqSugg,
 })
 ```
 
-其它语言 SDK 和更多 API 接口介绍，系统集成详情参考：[链接](https://docs.chatopera.com/products/chatbot-platform/integration.html)。
+系统集成详情打开[详细文档链接](https://docs.chatopera.com/products/chatbot-platform/integration.html)，了解其它语言 SDK 和更多 API 接口介绍。
+
+# 建模工具
+
+在实现聊天机器人前，尤其是多轮对话，完成一个任务，要先考虑好它的对话流程。然后再根据 [Chatopera 机器人平台](https://bot.chatopera.com) 提供的知识库、多轮对话和意图识别模块进行实现。
+
+在对话模板中，我们提供两种类型的，完成建模任务的方案。
+
+## Excel
+
+查看使用 Excel 形式描述的话术建模文件，在对话模板项目中打开 `flow.xlsx`。
+
+比如，[活动通知话术模版 Excel 文件](./projects/活动通知)。
+
+## UML 流程图
+
+对话模板中，有的带有[对话流程的建模项目]，即以"`.mdj`"结尾的文件，通常被命名为 `flow.mdj`，使用 StarUML 可以打开项目。
+
+比如，一个对话流程图示例：[活动通知](./projects/活动通知)。
+
+![](./assets/6.png)
+
+对话流程借鉴 UML Activity Diagram 建模，[入门参考文档](https://chatopera.blog.csdn.net/article/details/108133764)，内附元素定义、StarUML 软件下载等。
+
+## 添加新机器人并初始化
+
+```
+./admin/init.sh BOT_NAME # 在 projects 目录下添加一个 zh_CN 机器人
+```
+
+## Chatopera 机器人平台使用指南
+
+本系列视频帮助您在 Chatopera 机器人平台上开发聊天机器人，通过自然语言交互的形式，定制开发聊天机器人，提升业务流程自动化。Chatopera 机器人平台包括知识库、多轮对话、意图识别和语音识别等组件，标准化聊天机器人开发，支持企业 OA 智能问答、HR 智能问答、智能客服和网络营销等场景。
+
+<p align="center">
+  <b><a href="http://ke.chatopera.com/course/2994143" target="_blank">上线聊天机器人！</a></b><br>
+  <a href="http://ke.chatopera.com/course/2994143" target="_blank">
+      <img src="https://static-public.chatopera.com/assets/images/202009-bot-ke-1.jpg" width="800">
+  </a>
+</p>
+
+## 技术支持
+
+[反馈](https://github.com/chatopera/status/issues/new/choose)
+
+[其它](https://docs.chatopera.com/products/chatbot-platform/support.html)
 
 # LICENSE
 
@@ -213,5 +174,5 @@ faqSuggReplyThreshold: faqSugg,
 
 [![chatoper banner][co-banner-image]][co-url]
 
-[co-banner-image]: https://user-images.githubusercontent.com/3538629/42383104-da925942-8168-11e8-8195-868d5fcec170.png
+[co-banner-image]: ./assets/8.png
 [co-url]: https://www.chatopera.com

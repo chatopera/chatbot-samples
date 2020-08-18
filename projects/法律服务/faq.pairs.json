@@ -1,0 +1,299 @@
+[
+  {
+    "docId": "AXUaaSSXEy2xfNJEUjdS",
+    "categories": [],
+    "enabled": true,
+    "post": "骚扰电话, 怎么老是打电话",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "我们打电话给您，也只是想了解一下您是否有法律方面的需要，如果有打扰到您，确实抱歉呢！"
+      }
+    ],
+    "similarQuestions": [
+      " 怎么老是打电话",
+      "骚扰电话"
+    ]
+  },
+  {
+    "docId": "AXUaaLEWEy2xfNJEUjdP",
+    "categories": [],
+    "enabled": true,
+    "post": "我们是小公司，小企业",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "我们律所针对于中小企业推出了企业法律服务包业务，性价比也很高。一旦合作，您公司就可拥有自己的专属法律顾问啦。"
+      }
+    ],
+    "similarQuestions": [
+      "小企业",
+      "我们是小公司"
+    ]
+  },
+  {
+    "docId": "AXUaaD7CEy2xfNJEUjdM",
+    "categories": [],
+    "enabled": true,
+    "post": "网站地址，网址",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "我们的主网页是XXXXXXXXXXXXXXX，您可以了解下。"
+      }
+    ],
+    "similarQuestions": [
+      "网址",
+      "网站地址"
+    ]
+  },
+  {
+    "docId": "AXUaZ9FSEy2xfNJEUjdL",
+    "categories": [],
+    "enabled": true,
+    "post": "代理诉讼案件",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "在您起诉或被他人起诉后提供应诉服务，包括但不限于民间借贷纠纷、合同纠纷、人身损害赔偿纠纷、婚姻家庭纠纷、房屋买卖纠纷、建设工程纠纷等民商事案件。"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "docId": "AXUaZ4ouEy2xfNJEUjdH",
+    "categories": [],
+    "enabled": true,
+    "post": "常年法律顾问，常年顾问，法律顾问",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "常年法律顾问服务主要包括全年法律咨询、员工管理法律风险控制、合同管理法律风险防范、股权纠纷防范、税务风险防范、员工股权激励、参与商务谈判、纠纷调解、协助应收账款催收等。"
+      }
+    ],
+    "similarQuestions": [
+      "法律顾问",
+      "常年顾问",
+      "常年法律顾问"
+    ]
+  },
+  {
+    "docId": "AXUaZwjkEy2xfNJEUjdG",
+    "categories": [],
+    "enabled": true,
+    "post": "你们提供哪些产品，项目",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "我们的产品主要有三大类,一类是企业常年法律顾问，第二类是代理诉讼案件，第三类是提供税务筹划服务帮您依法节税，主要是看您的需求有哪些？"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "docId": "AXUaZr_LEy2xfNJEUjdF",
+    "categories": [],
+    "enabled": true,
+    "post": "等一下",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "哦，好的，您说"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "docId": "AXUaZoRKEy2xfNJEUjdE",
+    "categories": [],
+    "enabled": true,
+    "post": "你有没有在听我说话？",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "不好意思，您请讲。"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "docId": "AXUaZlfHEy2xfNJEUjdB",
+    "categories": [],
+    "enabled": true,
+    "post": "问个问题，有个问题",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "嗯，您说"
+      }
+    ],
+    "similarQuestions": [
+      "有个问题",
+      "问个问题"
+    ]
+  },
+  {
+    "docId": "AXUaZdZ7Ey2xfNJEUjc9",
+    "categories": [],
+    "enabled": true,
+    "post": "你发个短信／微信给我吧？能发邮件吗，电话多少",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "这样吧，我稍后给您发个短信，方便后续联系，您看可以吧？"
+      }
+    ],
+    "similarQuestions": [
+      "你发个微信给我吧",
+      "能发邮件吗，电话多少",
+      "你发个短信给我吧？"
+    ]
+  },
+  {
+    "docId": "AXUaZQUcEy2xfNJEUjc5",
+    "categories": [],
+    "enabled": true,
+    "post": "怎么知道我电话？从哪儿知道我号码？知道电话？知道号码？",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "我们都是通过正规的信息发布平台知道您号码的，例如企业黄页、招聘网站等等。"
+      }
+    ],
+    "similarQuestions": [
+      "怎么知道我电话？",
+      "知道电话？知道号码？",
+      "从哪儿知道我号码？"
+    ]
+  },
+  {
+    "docId": "AXUaZGwwEy2xfNJEUjc2",
+    "categories": [],
+    "enabled": true,
+    "post": "机器人, 录音，真人",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "其实这不重要啦，我只是给您提供一些法律服务和信息,如果有需要可以联系我们专业的律师"
+      }
+    ],
+    "similarQuestions": [
+      "录音，真人",
+      "机器人"
+    ]
+  },
+  {
+    "docId": "AXUaY_dMEy2xfNJEUjcz",
+    "categories": [],
+    "enabled": true,
+    "post": "你太不专业了?这个都不知道啊?",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "不好意思，我这边只是客服人员，您如果有专业问题，我稍后让我们专业律师给您回复。"
+      }
+    ],
+    "similarQuestions": [
+      "这个都不知道啊?",
+      "你太不专业了?"
+    ]
+  },
+  {
+    "docId": "AXUaY4pgEy2xfNJEUjcy",
+    "categories": [],
+    "enabled": true,
+    "post": "你多大了？",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "我是标准的90后呢！"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "docId": "AXUaY0lFEy2xfNJEUjcv",
+    "categories": [],
+    "enabled": true,
+    "post": "你叫什么, 你贵姓",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "我是编号008的客服人员，您叫我小王就可以了。"
+      }
+    ],
+    "similarQuestions": [
+      "你叫什么",
+      " 你贵姓"
+    ]
+  },
+  {
+    "docId": "AXUaYtLTEy2xfNJEUjcr",
+    "categories": [],
+    "enabled": true,
+    "post": "价格怎么样？ 你们怎么收费？怎么收费？",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "我们的服务项目很多，包括常年法律顾问及诉讼代理等诸多内容，具体收费情况我可以安排专人跟您联系，您看好吗？"
+      }
+    ],
+    "similarQuestions": [
+      "怎么收费？",
+      "价格怎么样？",
+      " 你们怎么收费"
+    ]
+  },
+  {
+    "docId": "AXUaYj7FEy2xfNJEUjcm",
+    "categories": [],
+    "enabled": true,
+    "post": "你们是不是骗子啊，靠谱吗，诈骗，是不是骗子",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "我们是报司法部备案，经XX省司法厅批准设立的律所，律所办公地址在XXXXXXX，您有空可以来律所了解一下或者上我们的主网站看下，您看呢？"
+      }
+    ],
+    "similarQuestions": [
+      "靠谱吗",
+      "靠谱吗，诈骗",
+      "是不是骗子",
+      "你们是不是骗子啊"
+    ]
+  },
+  {
+    "docId": "AXUaYaQREy2xfNJEUjcj",
+    "categories": [],
+    "enabled": true,
+    "post": "你们公司叫什么，哪个单位",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "我们是XXXX事务所，主要提供和应收账款，合同审核，纠纷处理、依法节税等法律和财税服务，您需要了解下吗？"
+      }
+    ],
+    "similarQuestions": [
+      "哪个单位",
+      "你们公司叫什么"
+    ]
+  },
+  {
+    "docId": "AXUaYSuyEy2xfNJEUjce",
+    "categories": [],
+    "enabled": true,
+    "post": "哪里, 在哪,  具体位置, 哪个地方,  具体哪里，什么地方，",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "我们在XXXXXXXXXXXXXXXXXXXXXXX。"
+      }
+    ],
+    "similarQuestions": [
+      "公司地址",
+      "位置在哪儿",
+      "怎么去你们公司，",
+      "改天去你们公司看下？"
+    ]
+  }
+]

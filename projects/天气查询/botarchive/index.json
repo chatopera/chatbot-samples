@@ -1,0 +1,23 @@
+{
+  "name": "SampleAppAskWeather",
+  "version": "1.0.0",
+  "primaryLanguage": "zh_CN",
+  "conversations": [
+    {
+      "name": "profile",
+      "enabled": true
+    },
+    {
+      "name": "weather",
+      "enabled": true
+    },
+    {
+      "name": "chatopera",
+      "enabled": true
+    }
+  ],
+  "config": {
+    "HEWEATHER_URL": "https://free-api.heweather.com/v5",
+    "HEWEATHER_KEY": "182f1b6826d94c6285a489d2414f3ad0"
+  }
+}
