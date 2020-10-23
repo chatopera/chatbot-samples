@@ -109,16 +109,18 @@ npm install @chatopera/sdk
 
 ```
 const Chatbot = require("@chatopera/sdk").Chatbot;
-client = new Chatbot(clientid, clientsecret, provider);
+const bot = new Chatbot(clientid, clientsecret, provider);
 
 # 请求多轮对话接口
 
-bot.command("POST", "/conversation/query", {
+let response = await bot.command("POST", "/conversation/query", {
     fromUserId: username,
     textMessage: answers.send,
     faqBestReplyThreshold: faqBest,
     faqSuggReplyThreshold: faqSugg,
 })
+
+# faqBest, faqSugg 分别为 FAQ 知识库最佳建议恢复阈值和建议回复阈值，取值为 (0,1)，并且 faqBest > faqSugg
 ```
 
 系统集成详情打开[详细文档链接](https://docs.chatopera.com/products/chatbot-platform/integration.html)，了解其它语言 SDK 和更多 API 接口介绍。
