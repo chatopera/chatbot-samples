@@ -27,7 +27,8 @@ if [[ ! -z "$1"  ]]; then
     touch README.md
     echo "# Chatbot $1" > README.md
     cat ../../assets/tpls/README.ap >> README.md
-    cp -rf ../../assets/tpls/{sample.env,scripts,botarchive,package.json,LICENSE,.gitignore,tmp} .
+    cp -rf ../../assets/tpls/{sample.env,scripts,botarchive,package.json,LICENSE,.gitignore} .
+    mkdir tmp
     cp sample.env .env
     echo `pwd` "is created."
     echo "Customize" `pwd`/.env "with your own bot."
