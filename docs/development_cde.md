@@ -2,7 +2,7 @@
 
 ### 安装和下载多轮对话设计器
 
-安装和下载多轮对话设计器：[安装教程](https://docs.chatopera.com/products/chatbot-platform/conversation.html#%E5%A4%9A%E8%BD%AE%E5%AF%B9%E8%AF%9D%E8%AE%BE%E8%AE%A1%E5%99%A8)。
+安装和下载多轮对话设计器：[安装教程](https://docs.chatopera.com/products/chatbot-platform/conversation/cde.html)。
 
 ### 下载对话应用发布包
 
@@ -45,6 +45,6 @@ BOT：您好，我是XXXX活动委员会的，第10届XXXX，10月1号-15号在X
 
 修改话题，在右侧脚本和函数编辑窗口更改，然后“保存”-“上传”；再次进行测试。
 
-更多内容参考[文档中心](https://docs.chatopera.com/products/chatbot-platform/conversation.html)。
+更多内容参考[文档中心](https://docs.chatopera.com/products/chatbot-platform/conversation/index.html)。
 
 返回[文档根页面](../)。

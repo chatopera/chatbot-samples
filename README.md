@@ -13,7 +13,7 @@
 
 - 注册 [Chatopera 云服务](https://bot.chatopera.com)；
 
-- 安装 [多轮对话设计器](https://docs.chatopera.com/products/chatbot-platform/conversation.html#%E5%A4%9A%E8%BD%AE%E5%AF%B9%E8%AF%9D%E8%AE%BE%E8%AE%A1%E5%99%A8) （**兼容 Mac 和 Windows 操作系统**）。
+- 安装 [多轮对话设计器](https://docs.chatopera.com/products/chatbot-platform/conversation/cde.html) （**兼容 Mac 和 Windows 操作系统**）。
 
 > 提示：Chatopera 云服务是 Chatopera 机器人平台的公有云；如果您使用私有部署的 Chatopera 机器人平台，请用部署后的服务地址。
 
@@ -22,7 +22,7 @@
 使用 Chatopera 对话模板定制聊天机器人的流程如下：
 
 - 注册 Chatopera 云服务：[https://bot.chatopera.com](https://bot.chatopera.com)
-- 下载安装[多轮对话设计器](https://docs.chatopera.com/products/chatbot-platform/conversation.html#%E5%A4%9A%E8%BD%AE%E5%AF%B9%E8%AF%9D%E8%AE%BE%E8%AE%A1%E5%99%A8)
+- 下载安装[多轮对话设计器](https://docs.chatopera.com/products/chatbot-platform/conversation/cde.html)
 - 在 Chatopera 云服务上创建机器人
 - 在多轮对话设计器上添加机器人
 - 针对任意模板
@@ -123,7 +123,7 @@ let response = await bot.command("POST", "/conversation/query", {
 # faqBest, faqSugg 分别为 FAQ 知识库最佳建议恢复阈值和建议回复阈值，取值为 (0,1)，并且 faqBest > faqSugg
 ```
 
-系统集成详情打开[详细文档链接](https://docs.chatopera.com/products/chatbot-platform/integration.html)，了解其它语言 SDK 和更多 API 接口介绍。
+系统集成详情打开[详细文档链接](https://docs.chatopera.com/products/chatbot-platform/integration/index.html)，了解其它语言 SDK 和更多 API 接口介绍。
 
 # 建模工具
 
@@ -166,7 +166,7 @@ let response = await bot.command("POST", "/conversation/query", {
 
 ## 技术支持
 
-[反馈](https://github.com/chatopera/status/issues/new/choose)
+[反馈](https://github.com/chatopera/docs/issues/new/choose)
 
 [其它](https://docs.chatopera.com/products/chatbot-platform/support.html)
 

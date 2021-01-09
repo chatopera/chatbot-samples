@@ -35,7 +35,7 @@ cp sample.env .env # 编辑 .env 文件
 | ------------------ | ------------------------- | -------------------------------------- |
 | BOT_PROVIDER       | https://bot.chatopera.com | BOT 服务地址                           |
 | BOT_CLIENT_ID      | 无默认，必填              | 从 PROVIDER 创建机器人，获得           |
-| BOT_CLIENT_SECRET         | 无默认，必填              | 从 PROVIDER 创建机器人，获得           |
+| BOT_CLIENT_SECRET  | 无默认，必填              | 从 PROVIDER 创建机器人，获得           |
 | BOT_USERNAME       | testuser                  | 测试对话的用户                         |
 | BOT_FAQ_BEST_REPLY | 0.8                       | 知识库最佳回复阀值                     |
 | BOT_FAQ_SUGG_REPLY | 0.6                       | 知识库建议回复阀值                     |
@@ -81,6 +81,6 @@ scripts/archive.sh 文件夹名
 
 更新 `botarchive` 下的脚本和函数文件，实现对话逻辑。
 
-教程和语法参考[文档中心：多轮对话](https://docs.chatopera.com/products/chatbot-platform/conversation.html)。
+教程和语法参考[文档中心：多轮对话](https://docs.chatopera.com/products/chatbot-platform/conversation/index.html)。
 
 返回[文档根页面](../)。
