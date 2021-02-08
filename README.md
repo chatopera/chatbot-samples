@@ -39,14 +39,15 @@
 
 ## 模板目录
 
-| 程序        | 语言  | 位置                                           | 功能                                                                           |
-| ----------- | ----- | ---------------------------------------------- | ------------------------------------------------------------------------------ |
-| GuessNumber | en_US | [projects/GuessNumber](./projects/GuessNumber) | 小游戏， Guess the secret number in the bot's hat.                             |
-| 天气查询    | zh_CN | [projects/天气查询](./projects/天气查询)       | 实现一个能回答天气情况的聊天机器人                                             |
-| 活动通知    | zh_CN | [projects/活动通知](./projects/活动通知)       | 实现一个能通知用户展会活动的聊天机器人                                         |
-| 招聘面试    | zh_CN | [projects/招聘面试](./projects/招聘面试)       | 进行工作面试：提问技能知识、评估性格和心理素质，发送邮件报告面试过程。         |
-| 小笑话      | zh_CN | [projects/小笑话](./projects/小笑话)           | 发送“笑话”，机器人返回一个笑话，逗您一乐。                                     |
-| 闲聊        | zh_CN | [projects/闲聊](./projects/闲聊)               | 闲聊，寒暄，6，000+ 条对话语料，修改 [faq.json](projects/闲聊/faq.json) 追加。 |
+| 程序         | 语言  | 位置                                                              | 功能                                                                         |
+| ------------ | ----- | ----------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| GuessNumber  | en_US | [projects/GuessNumber](./projects/GuessNumber)                    | 小游戏， Guess the secret number in the bot's hat.                           |
+| 天气查询     | zh_CN | [projects/天气查询](./projects/天气查询)                          | 实现一个能回答天气情况的聊天机器人                                           |
+| 活动通知     | zh_CN | [projects/活动通知](./projects/活动通知)                          | 实现一个能通知用户展会活动的聊天机器人                                       |
+| 招聘面试     | zh_CN | [projects/招聘面试](./projects/招聘面试)                          | 进行工作面试：提问技能知识、评估性格和心理素质，发送邮件报告面试过程。       |
+| 小笑话       | zh_CN | [projects/小笑话](./projects/小笑话)                              | 发送“笑话”，机器人返回一个笑话，逗您一乐。                                   |
+| 闲聊         | zh_CN | [projects/闲聊](./projects/闲聊)                                  | 闲聊，寒暄，6，000+ 条对话语料，修改 [faq.json](projects/闲聊/faq.json) 追加 |
+| FeishuDevops | zh_CN | [chatopera.feishu](https://github.com/chatopera/chatopera.feishu) | 飞书(Lark) Custom App, 集成 GitLab 实现 DevOps Issue 管理                    |
 
 查看[所有模板](./projects)。
 
