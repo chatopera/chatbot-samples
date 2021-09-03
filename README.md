@@ -27,21 +27,22 @@
 - 在多轮对话设计器上添加机器人
 - 针对任意模板
 
-  - 下载机器人知识库导入文件 faq.json
+  - 下载机器人知识库导入文件 faq.pairs.json
   - 下载机器人多轮对话 c66 文件
-  - 导入知识库 faq.json
+  - 导入知识库 faq.pairs.json
   - 导入多轮对话 c66
 
 - 在 Chatopera 云服务上测试和体验
 - 使用 **多轮对话设计器** 更新、调试多轮对话
 
-关于 faq.json 和 多轮对话 c66 文件参考下文更多介绍。
+关于 faq.pairs.json 和 多轮对话 c66 文件参考下文更多介绍。
 
 ## 模板目录
 
 | 程序         | 语言  | 位置                                                              | 功能                                                                         |
 | ------------ | ----- | ----------------------------------------------------------------- | ---------------------------------------------------------------------------- |
 | GuessNumber  | en_US | [projects/GuessNumber](./projects/GuessNumber)                    | 小游戏， Guess the secret number in the bot's hat.                           |
+| 预定机票 | zh_CN  |  [projects/预定机票](./projects/预定机票) |  预约机票  | 
 | 天气查询     | zh_CN | [projects/天气查询](./projects/天气查询)                          | 实现一个能回答天气情况的聊天机器人                                           |
 | 活动通知     | zh_CN | [projects/活动通知](./projects/活动通知)                          | 实现一个能通知用户展会活动的聊天机器人                                       |
 | 招聘面试     | zh_CN | [projects/招聘面试](./projects/招聘面试)                          | 进行工作面试：提问技能知识、评估性格和心理素质，发送邮件报告面试过程。       |
@@ -57,18 +58,18 @@
 ```
 .
 ├── README.md                      # 模板描述文件
-├── botarchive                     # 多轮对话 nodejs 项目
-│   ├── index.json                 # 项目描述
-│   ├── plugin.js                  # 函数
-│   ├── zh_CN.chatopera.ms         # 话题脚本 1
-│   ├── zh_CN.profile.ms           # 话题脚本 2
-│   └── zh_CN.weather.ms           # 话题脚本 N
-├── package.json                   # 基于Node.js开发时的环境依赖描述
 ├── faq.pairs.json                 # 知识库导入文件，包含问答对、扩展问等
 ├── flow.mdj                       # UML对话流程文件，描述对话流程
 ├── flow.xlsx                      # Excel话术文件，描述对话流程
 ├── releases                       # 版本目录
 │   └── *.c66                      # 对话应用发布包，c66 文件
+├── botarchive                     # c66 解压文件，多轮对话 Node.js 项目
+│   ├── index.json                 #   项目描述
+│   ├── plugin.js                  #   函数
+│   ├── zh_CN.chatopera.ms         #   话题脚本 1
+│   ├── zh_CN.profile.ms           #   话题脚本 2
+│   └── zh_CN.weather.ms           #   话题脚本 N
+├── package.json                   # 基于Node.js开发时的环境依赖描述
 ├── sample.env                     # 基于Node.js开发时的机器人远程调试配置信息
 └── scripts                        #    基于Node.js开发时的工具脚本
     ├── archive.sh                 #    打包，将 botarchive 制作为 c66 发布包
@@ -91,13 +92,13 @@
 |                  | 基于 多轮对话设计器 开发 **(推荐)** | [参考文档](./docs/development_cde.md)     |
 |                  | 基于 Node.js 开发                   | [参考文档](./docs/development_nodejs.md)  |
 
-在定制化开发环节，支持两种开发方法：1）使用 多轮对话设计器；2）基于 Node.js 环境开发。
+在定制化开发环节，支持两种开发方法：1）使用[多轮对话设计器（推荐）](https://docs.chatopera.com/products/chatbot-platform/conversation/cde.html) ；2）基于 Node.js 环境开发。
 
-两种方法支持的功能是一致的，基于多轮对话设计器更被官方推荐。虽然 _基于 Node.js 环境开发_ 对程序员更友好，但是将来会以 _多轮对话设计器_ 更新为主。
+两种方法支持的功能是一致的，基于多轮对话设计器更被官方推荐。
 
 ## 系统集成
 
-API - 检索多轮对话。
+API - 检索多轮对话(`POST /conversation/query`)。
 
 ### 快速开始
 
@@ -110,7 +111,7 @@ npm install @chatopera/sdk
 开始聊天。
 
 ```
-const Chatbot = require("@chatopera/sdk").Chatbot;
+const {Chatbot} = require("@chatopera/sdk");
 const bot = new Chatbot(clientid, clientsecret, provider);
 
 # 请求多轮对话接口
