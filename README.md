@@ -27,15 +27,16 @@
 - 在多轮对话设计器上添加机器人
 - 针对任意模板
 
-  - 下载机器人知识库导入文件 faq.pairs.json
-  - 下载机器人多轮对话 c66 文件
-  - 导入知识库 faq.pairs.json
-  - 导入多轮对话 c66
+  - 下载机器人知识库导入文件 `bot.faqs.json`
+  - 下载机器人多轮对话文件 `bot.conversations.c66`
+  - 导入知识库 `bot.faqs.json`
+  - 导入多轮对话文件 `bot.conversations.c66`
 
 - 在 Chatopera 云服务上测试和体验
 - 使用 **多轮对话设计器** 更新、调试多轮对话
 
-关于 faq.pairs.json 和 多轮对话 c66 文件参考下文更多介绍。
+关于知识库文件 `bot.faqs.json` 和 多轮对话 `c66` 文件参考下文更多介绍。
+还有的对话模板有词典和意图识别文件，参考 [使用 Chatopera CLI 导入机器人文件](#使用-cli-导入)。
 
 ## 模板目录
 
