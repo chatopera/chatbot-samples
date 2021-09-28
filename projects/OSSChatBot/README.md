@@ -16,4 +16,20 @@ The underneath of OSSChat is wechaty, and wechaty can connect to Chatopera with 
 
 With such abilities, the bot can handle opening issue, reply FAQs, etc.
 
+
+### Exmaple 1
+
+Analyze Chat history.
+
+![image](https://user-images.githubusercontent.com/3538629/135048914-798cc884-de12-4af2-8403-f63b353a9416.png)
+
+### Example 2
+
+Open Issue automatically.
+
 ![image](https://user-images.githubusercontent.com/3538629/135048617-6abfb803-9672-4ec1-9a2c-65384e86a1ef.png)
+
+
+
+
+
