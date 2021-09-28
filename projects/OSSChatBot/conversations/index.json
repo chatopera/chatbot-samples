@@ -1,0 +1,36 @@
+{
+  "name": "cskefu-col",
+  "primaryLanguage": "zh_CN",
+  "created": "2021-09-26T09:17:25.916Z",
+  "modified": "2021-09-28T06:43:33.495Z",
+  "description": "",
+  "fallback": "我不明白您的意思。",
+  "welcome": "你好！我是机器人客服。",
+  "gambitLikeThreshold": 0.8,
+  "gambitIntentQuestionMaxAttempts": 2,
+  "historyCheckpoints": 100,
+  "conversationTimeout": 1800,
+  "trans_zhCN_ZhTw2ZhCn": false,
+  "config": {
+    "@SYS_INTENT_BRANCH": "dev",
+    "BOT_NAME": "Chatopera 机器人助手波特",
+    "GITHUB_REPO_OWNER": "chatopera",
+    "GITHUB_ACCESS_TOKEN": "YOUR_PERSONAL_GITHUB_ACCESS_TOKEN",
+    "GITHUB_REPO_NAME": "cskefu"
+  },
+  "version": "UHkc3Zeyn",
+  "conversations": [
+    {
+      "name": "__post__",
+      "enabled": true
+    },
+    {
+      "name": "greetings",
+      "enabled": true
+    },
+    {
+      "name": "issues",
+      "enabled": true
+    }
+  ]
+}
