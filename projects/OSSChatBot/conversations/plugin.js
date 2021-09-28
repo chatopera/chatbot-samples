@@ -52,8 +52,7 @@ exports.handleOpenGithubIssue = async function() {
 
     if (title && body) {
         //  发送请求，创建 Issue
-        // creates an installation access token as needed
-        // assumes that installationId 123 belongs to @octocat, otherwise the request will fail
+        // https://docs.chatopera.com/products/chatbot-platform/references/func-builtin/3rd-party.html#octokit
         await octokit.request(`POST /repos/${config.GITHUB_REPO_OWNER}/${config.GITHUB_REPO_NAME}/issues`, {
             owner: config.GITHUB_REPO_OWNER,
             repo: config.GITHUB_REPO_NAME,
@@ -62,9 +61,12 @@ exports.handleOpenGithubIssue = async function() {
             labels: [entities["issue_category"].val]
         });
 
-
+        // 丢弃当前意图识别结果
+        this.intent.drop = true;
         return "Done."
     } else {
+        // 丢弃当前意图识别结果
+        this.intent.drop = true;
         return "不存在开 Issue 的对话信息，或信息已经过期。"
     }
 }
