@@ -40,6 +40,30 @@
 
 [https://docs.chatopera.com/products/chatbot-platform/howto-guides/cli-export-import.html](https://docs.chatopera.com/products/chatbot-platform/howto-guides/cli-export-import.html)
 
+
+### TL; DR
+```
+npm install -g @chatopera/sdk
+```
+
+Then, set alias in shell profile, like ~/.zshrc or ~/.bashrc
+
+```
+export CHATBOT_SAMPLES=YOUR_CLONED_PLACE
+alias botimport="$CHATBOT_SAMPLES/bin/import.sh"
+alias botexport="$CHATBOT_SAMPLES/bin/export.sh"
+```
+
+`CHATBOT_SAMPLES` is place that is cloned with [https://github.com/chatopera/chatbot-samples](https://github.com/chatopera/chatbot-samples), such as `/c/Users/Administrator/chatopera/chatbot-samples`.
+
+Now, work with commands `botimport` and `botexport`, for exmaple
+
+```
+cd projects/OSSChatBot
+botimport
+```
+
+
 ## 系统集成
 
 [https://docs.chatopera.com/products/chatbot-platform/howto-guides/index.html](https://docs.chatopera.com/products/chatbot-platform/howto-guides/index.html#%E5%8F%91%E5%B8%83%E6%9C%BA%E5%99%A8%E4%BA%BA)
