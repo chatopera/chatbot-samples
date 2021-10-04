@@ -50,8 +50,12 @@ Then, set alias in shell profile, like ~/.zshrc or ~/.bashrc
 
 ```
 export CHATBOT_SAMPLES=YOUR_CLONED_PLACE
-alias botimport="$CHATBOT_SAMPLES/bin/import.sh"
+# export bot files into current work dir
 alias botexport="$CHATBOT_SAMPLES/bin/export.sh"
+# import bot files under current work dir
+alias botimport="$CHATBOT_SAMPLES/bin/import.sh"
+# package conversations folder as bot.conversations.c66
+alias botconpac="$CHATBOT_SAMPLES/bin/conversation.package.sh"
 ```
 
 `CHATBOT_SAMPLES` is place that is cloned with [https://github.com/chatopera/chatbot-samples](https://github.com/chatopera/chatbot-samples), such as `/c/Users/Administrator/chatopera/chatbot-samples`.
