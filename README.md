@@ -1,3 +1,9 @@
+<div align=right>
+
+[主页](https://github.com/chatopera/chatbot-samples)　|　[Chatopera 云服务](https://docs.chatopera.com/)　|　[开发者文档](https://docs.chatopera.com/)　|　[博客专栏](https://chatopera.blog.csdn.net/)
+
+</div>
+
 # Chatopera 对话模板
 
 本源码库提供多个 **对话模板** 项目，基于这些项目，您可以：
@@ -10,6 +16,43 @@
 ## 开始阅读前，请完成
 
 [新手任务：使用入门教程一步步实现智能对话机器人](https://docs.chatopera.com/products/chatbot-platform/tutorials/index.html)
+
+## 使用 CLI 导入
+
+安装并配置 Chatopera CLI -
+
+[https://docs.chatopera.com/products/chatbot-platform/howto-guides/cli-export-import.html](https://docs.chatopera.com/products/chatbot-platform/howto-guides/cli-export-import.html)
+
+### TL; DR
+
+首先安装 Nodejs 和 Git for Windows(默认带有 Git Bash 环境)。
+
+然后执行：
+
+```
+npm install -g @chatopera/sdk
+```
+
+Then, set alias in shell profile, like ~/.zshrc or ~/.bashrc
+
+```
+export CHATBOT_SAMPLES=YOUR_CLONED_PLACE
+# export bot files into current work dir
+alias botexport="$CHATBOT_SAMPLES/bin/export.sh"
+# import bot files under current work dir
+alias botimport="$CHATBOT_SAMPLES/bin/import.sh"
+# package conversations folder as bot.conversations.c66
+alias botconpac="$CHATBOT_SAMPLES/bin/conversation.package.sh"
+```
+
+`CHATBOT_SAMPLES` is place that is cloned with [https://github.com/chatopera/chatbot-samples](https://github.com/chatopera/chatbot-samples), such as `/c/Users/Administrator/chatopera/chatbot-samples`.
+
+Now, work with commands `botimport` and `botexport`, for exmaple
+
+```
+cd projects/OSSChatBot
+botimport
+```
 
 ## 模板目录
 
@@ -36,42 +79,9 @@
 └── flow.xlsx                  # Excel 话术文件，描述对话流程
 ```
 
-## 使用 CLI 导入
-
-[https://docs.chatopera.com/products/chatbot-platform/howto-guides/cli-export-import.html](https://docs.chatopera.com/products/chatbot-platform/howto-guides/cli-export-import.html)
-
-
-### TL; DR
-```
-npm install -g @chatopera/sdk
-```
-
-Then, set alias in shell profile, like ~/.zshrc or ~/.bashrc
-
-```
-export CHATBOT_SAMPLES=YOUR_CLONED_PLACE
-# export bot files into current work dir
-alias botexport="$CHATBOT_SAMPLES/bin/export.sh"
-# import bot files under current work dir
-alias botimport="$CHATBOT_SAMPLES/bin/import.sh"
-# package conversations folder as bot.conversations.c66
-alias botconpac="$CHATBOT_SAMPLES/bin/conversation.package.sh"
-```
-
-`CHATBOT_SAMPLES` is place that is cloned with [https://github.com/chatopera/chatbot-samples](https://github.com/chatopera/chatbot-samples), such as `/c/Users/Administrator/chatopera/chatbot-samples`.
-
-Now, work with commands `botimport` and `botexport`, for exmaple
-
-```
-cd projects/OSSChatBot
-botimport
-```
-
-
 ## 系统集成
 
 [https://docs.chatopera.com/products/chatbot-platform/howto-guides/index.html](https://docs.chatopera.com/products/chatbot-platform/howto-guides/index.html#%E5%8F%91%E5%B8%83%E6%9C%BA%E5%99%A8%E4%BA%BA)
-
 
 ## 技术支持
 

@@ -1,0 +1,36 @@
+{
+  "name": "osschat_kaiyuanshe_bot",
+  "primaryLanguage": "zh_CN",
+  "created": "2021-10-01T16:28:03.361Z",
+  "modified": "2021-10-04T13:06:57.044Z",
+  "description": "",
+  "fallback": "我不明白您的意思。",
+  "welcome": "你好！我是机器人客服。",
+  "gambitLikeThreshold": 0.8,
+  "gambitIntentQuestionMaxAttempts": 2,
+  "historyCheckpoints": 100,
+  "conversationTimeout": 1800,
+  "trans_zhCN_ZhTw2ZhCn": false,
+  "config": {
+    "@SYS_INTENT_BRANCH": "dev",
+    "BOT_NAME": "开源社机器人助手 OSSChat",
+    "GITHUB_REPO_OWNER": "kaiyuanshe",
+    "GITHUB_ACCESS_TOKEN": "GET YOUR TOKEN FROM https://github.com/settings/tokens",
+    "GITHUB_REPO_NAME": "osschat"
+  },
+  "version": "_10XztUyC",
+  "conversations": [
+    {
+      "name": "__post__",
+      "enabled": true
+    },
+    {
+      "name": "greetings",
+      "enabled": true
+    },
+    {
+      "name": "issues",
+      "enabled": true
+    }
+  ]
+}
