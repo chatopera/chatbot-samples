@@ -33,7 +33,7 @@
 npm install -g @chatopera/sdk
 ```
 
-Then, set alias in shell profile, like ~/.zshrc or ~/.bashrc
+接着, 在 shell profile 中设置如下命令, 比如 `~/.zshrc` or `~/.bashrc`。
 
 ```
 export CHATBOT_SAMPLES=YOUR_CLONED_PLACE
@@ -45,7 +45,7 @@ alias botimport="$CHATBOT_SAMPLES/bin/import.sh"
 alias botconpac="$CHATBOT_SAMPLES/bin/conversation.package.sh"
 ```
 
-`CHATBOT_SAMPLES` is place that is cloned with [https://github.com/chatopera/chatbot-samples](https://github.com/chatopera/chatbot-samples), such as `/c/Users/Administrator/chatopera/chatbot-samples`.
+`CHATBOT_SAMPLES` 是项目 [https://github.com/chatopera/chatbot-samples](https://github.com/chatopera/chatbot-samples) 存放的路径, 比如 `/c/Users/Administrator/chatopera/chatbot-samples`。
 
 现在，使用命令 `botimport` 和 `botexport` 完成导入 BOT 和导出 BOT 的操作, 比如
 
