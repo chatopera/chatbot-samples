@@ -25,9 +25,9 @@
 
 ### TL; DR
 
-首先安装 Nodejs 和 Git for Windows(默认带有 Git Bash 环境)。
+首先，安装 Nodejs 和 Git for Windows(默认带有 Git Bash 环境)。
 
-然后执行：
+然后，执行：
 
 ```
 npm install -g @chatopera/sdk
@@ -47,12 +47,16 @@ alias botconpac="$CHATBOT_SAMPLES/bin/conversation.package.sh"
 
 `CHATBOT_SAMPLES` is place that is cloned with [https://github.com/chatopera/chatbot-samples](https://github.com/chatopera/chatbot-samples), such as `/c/Users/Administrator/chatopera/chatbot-samples`.
 
-Now, work with commands `botimport` and `botexport`, for exmaple
+现在，使用命令 `botimport` 和 `botexport` 完成导入 BOT 和导出 BOT 的操作, 比如
 
 ```
 cd projects/OSSChatBot
 botimport
 ```
+
+更多关于导入和导出的介绍 -
+
+[https://docs.chatopera.com/products/chatbot-platform/howto-guides/cli-export-import.html](https://docs.chatopera.com/products/chatbot-platform/howto-guides/cli-export-import.html)
 
 ## 模板目录
 
@@ -81,11 +85,11 @@ botimport
 
 ## 系统集成
 
-[https://docs.chatopera.com/products/chatbot-platform/howto-guides/index.html](https://docs.chatopera.com/products/chatbot-platform/howto-guides/index.html#%E5%8F%91%E5%B8%83%E6%9C%BA%E5%99%A8%E4%BA%BA)
+[https://docs.chatopera.com/products/chatbot-platform/howto-guides/index.html#发布机器人](https://docs.chatopera.com/products/chatbot-platform/howto-guides/index.html#%E5%8F%91%E5%B8%83%E6%9C%BA%E5%99%A8%E4%BA%BA)
 
 ## 技术支持
 
-[帮助](https://docs.chatopera.com/products/chatbot-platform/index.html#%E5%B8%AE%E5%8A%A9)
+[帮助](https://docs.chatopera.com/products/chatbot-platform/contract/index.html)
 
 # LICENSE
 
