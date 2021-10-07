@@ -2,29 +2,29 @@
   {
     "name": "issue_template",
     "description": "",
-    "createdate": "2021-10-04 11:54:39",
-    "updatedate": "2021-10-04 11:54:39",
+    "createdate": "2021-10-07 13:52:04",
+    "updatedate": "2021-10-07 13:52:04",
     "utters": [
       {
         "utterance": "kickoff_issue_template",
-        "createdate": "2021-10-04 11:54:39",
-        "updatedate": "2021-10-04 11:54:39"
+        "createdate": "2021-10-07 13:52:04",
+        "updatedate": "2021-10-07 13:52:04"
       }
     ],
     "slots": [
       {
         "name": "issue_category",
         "requires": true,
-        "createdate": "2021-10-04 11:54:39",
-        "updatedate": "2021-10-04 11:55:20",
+        "createdate": "2021-10-07 13:52:04",
+        "updatedate": "2021-10-07 13:52:04",
         "question": "Issue 是什么类型呢? 可选：需求，缺陷，文档，帮助，其它。",
         "dict": {
           "name": "issue_category",
           "builtin": false,
           "description": "",
           "samples": "",
-          "createdate": "2021-10-04 11:51:02",
-          "updatedate": "2021-10-04 11:51:02",
+          "createdate": "2021-10-07 13:52:01",
+          "updatedate": "2021-10-07 13:52:01",
           "type": null,
           "vendor": null,
           "used": null

@@ -18,6 +18,12 @@ function issueBodyKey(userId) {
     return keyprefix + ":openissue:body";
 }
 
+
+function issueAuthorKey(userId) {
+    let keyprefix = base64key(userId);
+    return keyprefix + ":openissue:author";
+}
+
 /**
  * Bot Profile
  */
@@ -52,13 +58,16 @@ exports.handleOpenGithubIssue = async function() {
     debug("[handleOpenGithubIssue] body", body)
 
     if (title && body) {
+        // 创建者
+        let author = await this.maestro.get(issueAuthorKey(this.user.id))
+
         //  发送请求，创建 Issue
         // https://docs.chatopera.com/products/chatbot-platform/references/func-builtin/3rd-party.html#octokit
         let resp = await octokit.request(`POST /repos/${config.GITHUB_REPO_OWNER}/${config.GITHUB_REPO_NAME}/issues`, {
             owner: config.GITHUB_REPO_OWNER,
             repo: config.GITHUB_REPO_NAME,
             title: title.slice(0, 60),
-            body: "Labels: " + entities["issue_category"].val + "\n" + body,
+            body: "Labels: " + entities["issue_category"].val + (author ? "， 创建者: " + author : "") + "\n" + body,
             labels: [entities["issue_category"].val]
         });
 
@@ -139,6 +148,10 @@ exports.initOpenGithubIssue = async function() {
 
     await this.maestro.set(issueTitleKey(this.user.id), title, 3600);
     await this.maestro.set(issueBodyKey(this.user.id), body.join("\n"), 3600);
+
+    if (this.message.extras && this.message.extras.room) {
+        await this.maestro.set(issueAuthorKey(this.user.id), this.message.extras.username, 3600);
+    }
 
     return "^topicRedirect(\"issues\", \"issue_template\", true)"
 
