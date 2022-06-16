@@ -1,6 +1,6 @@
 <div align=right>
 
-[主页](https://github.com/chatopera/chatbot-samples)　|　[Chatopera 云服务](https://docs.chatopera.com/)　|　[开发者文档](https://docs.chatopera.com/)　|　[博客专栏](https://chatopera.blog.csdn.net/)
+[Chatopera 云服务](https://bot.chatopera.com/)　|　[入门教程](https://docs.chatopera.com/products/chatbot-platform/tutorials/index.html)　|　[文档中心](https://docs.chatopera.com/index.html)
 
 </div>
 
@@ -14,6 +14,8 @@
 - 快速掌握 Chatopera 机器人的系统集成。
 
 ## 开始阅读前，请完成
+
+确保您已经完成新手任务！！！很简单的，40 分钟内，即可按照提示，一步步完成，以节省您的时间！少走弯路！
 
 [新手任务：使用入门教程一步步实现智能对话机器人](https://docs.chatopera.com/products/chatbot-platform/tutorials/index.html)
 
