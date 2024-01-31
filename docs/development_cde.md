@@ -1,16 +1,22 @@
-## 基于 多轮对话设计器 开发
+<div align=right>
 
-### 安装和下载多轮对话设计器
+[主页](https://github.com/chatopera/chatbot-samples)　|　[Chatopera 云服务](https://docs.chatopera.com/)　|　[开发者文档](https://docs.chatopera.com/)　|　[博客专栏](https://chatopera.blog.csdn.net/)
+
+</div>
+
+# 基于 多轮对话设计器 开发
+
+## 安装和下载多轮对话设计器
 
 安装和下载多轮对话设计器：[安装教程](https://docs.chatopera.com/products/chatbot-platform/conversation/cde.html)。
 
-### 下载对话应用发布包
+## 下载对话应用发布包
 
 选择对话模板，比如 [**活动通知**](https://github.com/chatopera/chatbot-samples/tree/master/projects/%E6%B4%BB%E5%8A%A8%E9%80%9A%E7%9F%A5)，下载 `bot.conversations.c66` 文件，机器人对话应用发布文件以`.c66`结尾。
 
 ![](../assets/10.jpg)
 
-### 登陆 Chatopera 机器人平台
+## 登陆 Chatopera 机器人平台
 
 登陆 Chatopera 机器人平台，公有云服务地址为 [https://bot.chatopera.com](https://bot.chatopera.com)。选择语言（中文简体，中文繁体或英语）。
 
@@ -20,13 +26,13 @@
 
 ![](../assets/9.jpg)
 
-### 导入发布包
+## 导入发布包
 
 打开多轮对话设计器，添加机器人，在弹出表单中，填入`ClientId`和`Secret`。
 
 然后点击“导入”，选择刚刚下载的`.c66`文件。
 
-### 修改话术并测试
+## 修改话术并测试
 
 完成导入后，在“操作”中点击“打开”。
 

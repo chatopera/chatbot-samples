@@ -16,3 +16,4 @@ sftp-config.json
 ~$*.ppt*
 ~$*.doc*
 localrc
+workarea
