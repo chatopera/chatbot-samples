@@ -52,7 +52,7 @@ alias botconpac="$CHATBOT_SAMPLES/bin/conversation.package.sh"
 现在，使用命令 `botimport` 和 `botexport` 完成导入 BOT 和导出 BOT 的操作, 比如
 
 ```
-cd projects/OSSChatBot
+cd projects/GitHub工单机器人
 botimport
 ```
 
