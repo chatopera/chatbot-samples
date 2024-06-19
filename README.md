@@ -86,13 +86,11 @@ botimport
 └── flow.xlsx                  # Excel 话术文件，描述对话流程
 ```
 
-## 系统集成
+## 工单
 
-[https://docs.chatopera.com/products/chatbot-platform/howto-guides/index.html#发布机器人](https://docs.chatopera.com/products/chatbot-platform/howto-guides/index.html#%E5%8F%91%E5%B8%83%E6%9C%BA%E5%99%A8%E4%BA%BA)
+有关 [chatopera/chatbot-samples](https://github.com/chatopera/chatbot-samples) 的工单，提交到 -
 
-## 技术支持
-
-[帮助](https://docs.chatopera.com/products/chatbot-platform/contract/index.html)
+[https://github.com/chatopera/docs/issues?q=label%3ASamples](https://github.com/chatopera/docs/issues?q=label%3ASamples)
 
 # LICENSE
 
