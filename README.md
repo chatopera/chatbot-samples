@@ -16,9 +16,16 @@
 
 ## 开始阅读前
 
-* 请完成[入门教程](https://docs.chatopera.com/products/chatbot-platform/tutorials/index.html)
+* 请完成入门教程，[查看文档](https://docs.chatopera.com/products/chatbot-platform/tutorials/index.html)
 * 安装并配置 Nodejs 和 Git for Windows(默认带有 Git Bash 环境)
-* 了解导入导出语料，[https://docs.chatopera.com/products/chatbot-platform/howto-guides/cli-export-import.html](https://docs.chatopera.com/products/chatbot-platform/howto-guides/cli-export-import.html)
+* 了解导入导出语料，[查看文档](https://docs.chatopera.com/products/chatbot-platform/howto-guides/integration/cli-export-import.html)
+
+## 工单
+
+有关 [chatopera/chatbot-samples](https://github.com/chatopera/chatbot-samples) 的工单，提交到 -
+
+[https://github.com/chatopera/docs/issues?q=label%3ASamples](https://github.com/chatopera/docs/issues?q=label%3ASamples)
+
 
 ## 使用 CLI 导入示例程序
 
@@ -84,13 +91,6 @@ bot conversation --action export -f bot.conversations.c66
 ├── flow.mdj                   # UML 对话流程文件，描述对话流程
 └── flow.xlsx                  # Excel 话术文件，描述对话流程
 ```
-
-## 工单
-
-有关 [chatopera/chatbot-samples](https://github.com/chatopera/chatbot-samples) 的工单，提交到 -
-
-[https://github.com/chatopera/docs/issues?q=label%3ASamples](https://github.com/chatopera/docs/issues?q=label%3ASamples)
-
 
 ## Tips
 
