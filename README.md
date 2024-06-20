@@ -31,7 +31,7 @@
 
 查看[示例程序目录](./projects)。
 
-![Alt text](assets/images/screenshot_20240620093658.png)
+[![Alt text](assets/images/screenshot_20240620093658.png)](./projects)
 
 每个**示例程序**按照如下的结构组织。
 
