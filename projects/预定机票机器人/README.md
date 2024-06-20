@@ -1,6 +1,4 @@
-# 预定机票
-
-体验地址：[https://oh-my.cskefu.com/im/text/0nhckh.html](https://oh-my.cskefu.com/im/text/0nhckh.html)
+# 预定机票机器人
 
 ## 导入
 

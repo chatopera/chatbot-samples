@@ -121,6 +121,7 @@ exports.placeAirplaneTicketOrder = async function() {
 
 // 不预约了
 exports.cancelAirplanTicketReservation = async function() {
+    // 声明丢弃当前进行的意图识别对话，默认不丢弃
     this.intent.drop = true;
     return {
         text: "{CLEAR} 好的，下次再帮您预约"

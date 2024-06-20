@@ -1,0 +1,1 @@
+{"name":"SampleZhCn","primaryLanguage":"zh_CN","config":{"JOKES_DATA_URL":"https://www.chatopera.com/files/botsamples/jokes.json"},"version":"2.0.0","conversations":[{"name":"give_me_joke","enabled":true},{"name":"greetings","enabled":true}]}
