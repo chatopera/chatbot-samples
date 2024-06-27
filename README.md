@@ -68,7 +68,7 @@ npm install -g @chatopera/sdk
 
 ![Alt text](assets/images/screenshot_20240627135732.png)
 
-### 克隆代码
+## 克隆代码
 
 ```
 git clone https://github.com/chatopera/chatbot-samples.git
