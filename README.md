@@ -78,7 +78,7 @@ pwd # 得到代码路径 ROOT_PATH
 
 ## 使用 CLI 导入示例程序
 
-首先，[安装 CLI 和克隆代码]()，然后执行下面的步骤。
+首先，[安装 CLI 和克隆代码](https://github.com/chatopera/chatbot-samples?tab=readme-ov-file#%E5%AE%89%E8%A3%85-cli)，然后执行下面的步骤。
 
 ### 导入语料
 将某个示例程序，导入到一个已有的聊天机器人。假设已经在 [https://bot.chatopera.com/dashboard](https://bot.chatopera.com/dashboard) 创建了一个聊天机器人，并获得了 ClientID 和 Secret 信息。 
