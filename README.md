@@ -17,15 +17,12 @@
 ## 开始阅读前
 
 * 请完成入门教程，[查看文档](https://docs.chatopera.com/products/chatbot-platform/tutorials/index.html)
-* 安装并配置 Nodejs 和 Git for Windows(默认带有 Git Bash 环境)
-* 了解导入导出语料，[查看文档](https://docs.chatopera.com/products/chatbot-platform/howto-guides/integration/cli-export-import.html)
 
 ## 工单
 
 有关 [chatopera/chatbot-samples](https://github.com/chatopera/chatbot-samples) 的工单，提交到 -
 
 [https://github.com/chatopera/docs/issues?q=label%3ASamples](https://github.com/chatopera/docs/issues?q=label%3ASamples)
-
 
 ## 示例程序目录
 
@@ -37,17 +34,24 @@
 
 ```
 根目录
-├── README.md                  # 模板描述文件
+├── README.md                  # 该项目的使用说明，必读
 ├── bot.dicts.json             # 词典导入文件，包括引用词典、词汇表词典和正则表达式词典
 ├── bot.faqs.json              # 知识库导入文件，包括标准问、扩展问、分类等
 ├── bot.intents.json           # 意图识别导入文件，包含意图、说法、槽位等
 ├── bot.conversations.c66      # 多轮对话导入文件，包含脚本、函数等
 ├── conversations              # 多轮对话文件解压后的内容，.c66 文件是 zip 压缩包
-├── flow.mdj                   # UML 对话流程文件，描述对话流程
-└── flow.xlsx                  # Excel 话术文件，描述对话流程
+├── flow.mdj                   # UML 对话流程文件，描述对话流程，可能有
+└── flow.xlsx                  # Excel 话术文件，描述对话流程，可能有
 ```
 
 ## 使用 CLI 导入示例程序
+
+[CLI 命令行工具](https://docs.chatopera.com/products/chatbot-platform/references/cli.html)是自动化的脚本命令，使用 CLI 命令行工具可快速的导入或导出机器人语料。使用 CLI 工具，需要先安装依赖：
+
+* Git - [Windows 安装指南](https://gitforwindows.org/) | [macOS](https://git-scm.com/download/mac) | [Linux](https://git-scm.com/downloads)
+* Node.js - [安装指南](https://nodejs.org/zh-cn)
+
+CLI 同时依赖操作系统的命令行终端，如 PowerShell, CMD Prompt, Bash Shell, etc.
 
 ### 克隆代码
 
@@ -66,14 +70,13 @@ npm install -g @chatopera/sdk
 ```
 
 ### 导入语料
-
 将某个示例程序，导入到一个已有的聊天机器人。假设已经在 [https://bot.chatopera.com/dashboard](https://bot.chatopera.com/dashboard) 创建了一个聊天机器人，并获得了 ClientID 和 Secret 信息。 
 
 接着执行下面的命令：
 
 ```
-cd {{ROOT_PATH}}/GitHub工单机器人
-bot env # 自动生成 .env 文件，进行修改
+cd {{ROOT_PATH}}/projects/GitHub工单机器人 # 使用哪个示例程序，就进入哪个示例程序路径
+bot env # 自动生成 .env 文件，然后更新 .env 文件中的 BOT_CLIENT_ID 和 BOT_CLIENT_SECRET
 bot dicts --action import -f bot.dicts.json
 bot faq --action import -f bot.faqs.json
 bot intents --action import -f bot.intents.json
@@ -84,18 +87,21 @@ bot conversation --action import -f bot.conversations.c66
 
 
 ### 导出语料
-将目前机器人的语料导出为本地的语料文件。
+将目前 `.env` 文件中的机器人的语料导出为本地的语料文件。
 
 ```
-cd {{ROOT_PATH}}/GitHub工单机器人
-bot dicts --action export -f bot.dicts.json # 假设已经创建了 .env 文件
+cd {{ROOT_PATH}}/projects/GitHub工单机器人 # 使用哪个示例程序，就进入哪个示例程序路径
+bot dicts --action export -f bot.dicts.json # 假设已经创建了 .env 文件，并设定 BOT_CLIENT_ID 和 BOT_CLIENT_SECRET
 bot faq --action export -f bot.faqs.json
 bot intents --action export -f bot.intents.json
 bot conversation --action export -f bot.conversations.c66
 ```
 
+## 更多提示
 
-## Tips
+### 语料导入导出的更多介绍
+
+了解导入导出语料，[查看文档](https://docs.chatopera.com/products/chatbot-platform/howto-guides/integration/cli-export-import.html)
 
 ### 设置命令快捷方式
 

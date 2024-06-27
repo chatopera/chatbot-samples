@@ -1,11 +1,11 @@
 # 预定机票机器人
 
-## 导入
+## 导入机器人语料到 Chatopera 云服务
 
-- 创建机器人
-- 获得 ClientId 和 Secret，放在 `workarea/{YOUR_BOTID}/.env`中
-- 进入 workarea 后执行：`../../bin/import.sh`
+参考
+
+导入完成。
 
 ## 调试对话
 
-使用多轮对话设计器调试
+使用多轮对话设计器调试。
