@@ -62,15 +62,15 @@ pwd # 得到代码路径 ROOT_PATH
 ### 导入语料
 将某个示例程序，导入到一个已有的聊天机器人。假设已经在 [https://bot.chatopera.com/dashboard](https://bot.chatopera.com/dashboard) 创建了一个聊天机器人，并获得了 ClientID 和 Secret 信息。 
 
-接着执行下面的命令：
+接着按照顺序，执行下面的命令：
 
 ```
 cd {{ROOT_PATH}}/projects/GitHub工单机器人 # 使用哪个示例程序，就进入哪个示例程序路径
 bot env # 自动生成 .env 文件，然后更新 .env 文件中的 BOT_CLIENT_ID 和 BOT_CLIENT_SECRET
-bot dicts --action import -f bot.dicts.json
-bot faq --action import -f bot.faqs.json
-bot intents --action import -f bot.intents.json
-bot conversation --action import -f bot.conversations.c66
+bot dicts --action import -f bot.dicts.json # 导出词典
+bot faq --action import -f bot.faqs.json    # 导出知识库
+bot intents --action import -f bot.intents.json # 导出意图识别
+bot conversation --action import -f bot.conversations.c66 # 导出多轮对话
 ```
 
 `{{ROOT_PATH}}` 是项目 [https://github.com/chatopera/chatbot-samples](https://github.com/chatopera/chatbot-samples) 存放的路径, 比如 `/c/Users/Administrator/chatbot-samples`。
