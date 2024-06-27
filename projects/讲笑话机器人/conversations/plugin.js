@@ -3,38 +3,45 @@ const K_JOKES_EXPIRED = 3600 * 24; // 24 小时过期
 // https://gitee.com/chatopera/chatbot-samples/raw/master/projects/%E5%B0%8F%E7%AC%91%E8%AF%9D/assets/jokes.json
 const JOKES_DATA_URL = config["JOKES_DATA_URL"];
 
-const fetchJokes = async function () {
-  debug("fetchJokes: fetch from remote url %s ...", JOKES_DATA_URL);
-  let resp = await http.get(JOKES_DATA_URL);
-  // debug("fetchJokes: ", resp.data)
-  return resp.data;
+const fetchJokes = async function() {
+    debug("fetchJokes: fetch from remote url %s ...", JOKES_DATA_URL);
+    let resp = await http.get(JOKES_DATA_URL);
+    // debug("fetchJokes: ", resp.data)
+    return resp.data;
 };
 
-exports.nextJoke = async function () {
-  let uid = this.user.id;
-  let K_UID_TOLD = K_JOKES_TOLD + uid;
-  let told = await this.maestro.get(K_UID_TOLD);
-  if (!told) told = "";
+exports.nextJoke = async function() {
+    let uid = this.user.id;
+    let K_UID_TOLD = K_JOKES_TOLD + uid;
+    let told = await this.maestro.get(K_UID_TOLD);
+    if (!told) told = "";
 
-  let jokes = await fetchJokes();
+    let toldLen = told.split(",").length;
+    debug("[nextJoke] hit next joke %d ...", toldLen)
 
-  for (let x of jokes) {
-    if (told.includes(x.id)) {
-      continue;
+    // 今天就讲 10 个
+    if (toldLen >= 10) {
+        return "{@__reply_no_more_joke_now}";
     }
-    told += `, ${x.id}`;
-    this.maestro.set(K_UID_TOLD, told, K_JOKES_EXPIRED);
-    return {
-      text: x.content,
-      params: [
-        {
-          label: "下一个",
-          type: "button",
-          text: "笑话",
-        },
-      ],
-    };
-  }
 
-  return "{@__reply_no_more_joke_now}";
+    // 获取新的
+    let jokes = await fetchJokes();
+
+    for (let x of jokes) {
+        if (told.includes(x.id)) {
+            continue;
+        }
+        told += `,${x.id}`;
+        this.maestro.set(K_UID_TOLD, told, K_JOKES_EXPIRED);
+        return {
+            text: x.content,
+            params: [{
+                label: "下一个",
+                type: "button",
+                text: "笑话",
+            }, ],
+        };
+    }
+
+    return "{@__reply_no_more_joke_now}";
 };

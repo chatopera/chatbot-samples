@@ -10,6 +10,7 @@ BOT_DICTS_FILE=bot.dicts.json
 BOT_FAQS_FILE=bot.faqs.json
 BOT_INTENTS_FILE=bot.intents.json
 BOT_CONV_FILE=bot.conversations.c66
+BOT_CONV_DIR=conversations
 
 # functions
 
@@ -54,6 +55,12 @@ fi
 if [ ! $? -eq 0 ]; then
     echo "Error"
     exit 1
+fi
+
+
+if [ -d $BOT_DIR/$BOT_CONV_DIR ]; then
+    echo "Package conversations c66 ..."
+    $BOT_DIR/../../bin/package.sh
 fi
 
 if [ -f $BOT_DIR/$BOT_CONV_FILE ]; then

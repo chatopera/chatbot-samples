@@ -29,8 +29,12 @@ if [ ! -d conversations ]; then
     exit 1
 fi
 
+if [ ! -d tmp ]; then
+    mkdir tmp
+fi
+
 if [ -f $BOT_CONV_FILE  ]; then
-    mv $BOT_CONV_FILE $BOT_CONV_FILE.bak
+    mv $BOT_CONV_FILE tmp/$BOT_CONV_FILE.bak
 fi
 
 cd conversations

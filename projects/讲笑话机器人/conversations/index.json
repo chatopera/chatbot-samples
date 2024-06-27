@@ -1,1 +1,32 @@
-{"name":"SampleZhCn","primaryLanguage":"zh_CN","config":{"JOKES_DATA_URL":"https://www.chatopera.com/files/botsamples/jokes.json"},"version":"2.0.0","conversations":[{"name":"give_me_joke","enabled":true},{"name":"greetings","enabled":true}]}
+{
+  "name": "讲笑话机器人",
+  "primaryLanguage": "zh_CN",
+  "created": "2024-06-27T06:15:00.924Z",
+  "modified": "2024-06-27T06:27:40.204Z",
+  "description": "示例程序，https://github.com/chatopera/chatbot-samples，误删！！",
+  "fallback": "我不明白您的意思。",
+  "welcome": "你好！我是机器人客服。",
+  "gambitLikeThreshold": 0.8,
+  "gambitIntentQuestionMaxAttempts": 2,
+  "historyCheckpoints": 100,
+  "conversationTimeout": 1800,
+  "faqBestReplyThreshold": 0.8,
+  "faqSuggReplyThreshold": 0.5,
+  "llmBaiduErnieBot": false,
+  "trans_zhCN_ZhTw2ZhCn": false,
+  "config": {
+    "JOKES_DATA_URL": "https://www.chatopera.com/files/botsamples/jokes.json",
+    "@SYS_INTENT_BRANCH": "dev"
+  },
+  "version": "2_aoc3fqY",
+  "conversations": [
+    {
+      "name": "give_me_joke",
+      "enabled": true
+    },
+    {
+      "name": "greetings",
+      "enabled": true
+    }
+  ]
+}
