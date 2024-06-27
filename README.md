@@ -55,6 +55,8 @@ cd chatbot-samples
 pwd # 得到代码路径 ROOT_PATH
 ```
 
+`{{ROOT_PATH}}` 是项目 [https://github.com/chatopera/chatbot-samples](https://github.com/chatopera/chatbot-samples) 存放的路径, 比如 `/c/Users/Administrator/chatbot-samples`。
+
 ## 使用 CLI 导入示例程序
 
 首先，[安装 CLI 和克隆代码](https://github.com/chatopera/chatbot-samples?tab=readme-ov-file#%E5%AE%89%E8%A3%85-cli)，然后执行下面的步骤。
@@ -74,8 +76,7 @@ bot intents --action import -f bot.intents.json # 导出意图识别
 bot conversation --action import -f bot.conversations.c66 # 导出多轮对话
 ```
 
-`{{ROOT_PATH}}` 是项目 [https://github.com/chatopera/chatbot-samples](https://github.com/chatopera/chatbot-samples) 存放的路径, 比如 `/c/Users/Administrator/chatbot-samples`。
-
+这样，就可以访问机器人了，比如从 H5 聊天控件，和机器人对话。
 
 ### 导出语料
 将目前 `.env` 文件中的机器人的语料导出为本地的语料文件。
@@ -87,6 +88,10 @@ bot faq --action export -f bot.faqs.json
 bot intents --action export -f bot.intents.json
 bot conversation --action export -f bot.conversations.c66
 ```
+
+这样，就完成了机器人对话技能的备份。
+
+导入和导出中，文件格式是一样的。
 
 ## 更多提示
 
