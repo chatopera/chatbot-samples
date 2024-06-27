@@ -1,6 +1,16 @@
 # 招聘面试机器人
+<!-- 示例程序，https://github.com/chatopera/chatbot-samples，误删！！ -->
+>> 查看创作本机器人的背后的故事，[Chatopera：HR 机器人让每次面试都值得记忆](https://www.sohu.com/a/281335891_100268913)
 
-## 背景介绍
+## 体验本示例程序
+
+打开链接或二维码。
+
+链接：[https://h5.chatopera.com/im/text/0I1ItM.html](https://h5.chatopera.com/im/text/0I1ItM.html)
+
+![Alt text](assets/screenshot_20240627151920.png)
+
+## 功能介绍
 
 在 Chatopera，我们实现了一个 HR 招聘助手机器人，我希望她能有效的考核我们的候选人，然后进行终面。
 
@@ -32,28 +42,12 @@
 
 这样看起来还不错，接下来我就要决定是否和这位心仪的候选人见面！更重要的是这份儿格式化结构化的报告可以填充到企业的大数据人才仓库中，这个价值是显而易见的。
 
-## 安装和配置
+## 导入机器人语料到 Chatopera 云服务
 
-### 在 Chatopera 云服务中创建机器人
+将本示例程序导入到您的机器人，见[参考文档](https://github.com/chatopera/chatbot-samples?tab=readme-ov-file#%E4%BD%BF%E7%94%A8-cli-%E5%AF%BC%E5%85%A5%E7%A4%BA%E4%BE%8B%E7%A8%8B%E5%BA%8F)。
 
-### 导入知识库
+## 调试对话
 
-下载 [知识库 JSON 文件](./faq.json)，在机器人控制台的知识库页面导入 JSON 文件。
-
-### 导入多轮对话
-
-下载 [多轮对话发布包 c66 文件](./releases/SampleZhCn.zh_CN.1.0.0.c66)，在机器人控制台的多轮对话导入 c66 文件。
-
-## 集成到网站
-
-可使用 春松客服 发布该机器人给面试者使用，[春松客服部署](https://docs.chatopera.com/products/cskefu/deploy.html) 和 [春松客服里的机器人](https://docs.chatopera.com/products/cskefu/work-chatbot.html)。
-
-## 在多轮对话设计中调试机器人
+使用多轮对话设计器调试，见[参考文档](https://docs.chatopera.com/products/chatbot-platform/tutorials/3-add-scripts-function.html)。
 
 <img src="./assets/1.png" width="800">
-
-下载安装多轮对话设计器，参考 [文档](../../README.md)。
-
-# 其它文章
-
-[Chatopera：HR 机器人让每次面试都值得记忆](http://www.ctiforum.com/news/guonei/548654.html)
