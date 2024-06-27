@@ -8,7 +8,7 @@
 
 [GitHub](https://github.com/chatopera/chatbot-samples/) | [Gitee](https://gitee.com/chatopera/chatbot-samples)
 
-本源码库提供多个 [**示例程序**](./projects/) 项目，基于这些项目，您可以：
+本源码库提供多个示例程序项目，基于这些项目，您可以：
 
 - 快速掌握 Chatopera 对话机器人开发，实现智能问答，智能客服等应用；
 - 以对话模板为脚手架，学习最佳实践，开发多轮对话；
@@ -17,6 +17,7 @@
 ## 开始阅读前
 
 * 请完成入门教程，[查看文档](https://docs.chatopera.com/products/chatbot-platform/tutorials/index.html)
+* 本文面向开发者撰写，有命令行工具或编程语言经验：Bash（或 PowerShell）, Git, JavaScript
 
 ## 工单
 
@@ -53,6 +54,7 @@ npm install -g @chatopera/sdk
 git clone https://github.com/chatopera/chatbot-samples.git
 cd chatbot-samples
 pwd # 得到代码路径 ROOT_PATH
+ls projects # projects 目录内存放多个示例项目
 ```
 
 `{{ROOT_PATH}}` 是项目 [https://github.com/chatopera/chatbot-samples](https://github.com/chatopera/chatbot-samples) 存放的路径, 比如 `/c/Users/Administrator/chatbot-samples`。
@@ -67,7 +69,7 @@ pwd # 得到代码路径 ROOT_PATH
 接着**按照顺序，执行下面的命令**：
 
 ```
-#cd {{ROOT_PATH}}/projects/{{PROJECT_NAME}} # 使用哪个示例程序，就进入哪个示例程序路径
+#cd {{ROOT_PATH}}/projects/{{PROJECT_NAME}} # 使用哪个示例项目，就进入哪个文件夹
 cd {{ROOT_PATH}}/projects/GitHub工单机器人 # 比如，进入【GitHub工单机器人】 
 bot env # 自动生成 .env 文件，然后更新 .env 文件中的 BOT_CLIENT_ID 和 BOT_CLIENT_SECRET
 bot dicts --action import -f bot.dicts.json # 导出词典
@@ -82,7 +84,7 @@ bot conversation --action import -f bot.conversations.c66 # 导出多轮对话
 将目前 `.env` 文件中的机器人的语料导出为本地的语料文件。
 
 ```
-cd {{ROOT_PATH}}/projects/GitHub工单机器人 # 使用哪个示例程序，就进入哪个示例程序路径
+cd {{ROOT_PATH}}/projects/GitHub工单机器人 # 使用哪个示例项目，就进入哪个文件夹
 bot dicts --action export -f bot.dicts.json # 假设已经创建了 .env 文件，并设定 BOT_CLIENT_ID 和 BOT_CLIENT_SECRET
 bot faq --action export -f bot.faqs.json
 bot intents --action export -f bot.intents.json
@@ -91,9 +93,9 @@ bot conversation --action export -f bot.conversations.c66
 
 这样，就完成了机器人对话技能的备份。
 
-导入和导出中，文件格式是一样的。
+**导入和导出中，文件格式是一样的。**
 
-## 更多提示
+## 更多说明
 
 ### 示例程序目录
 
