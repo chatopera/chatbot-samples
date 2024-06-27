@@ -21,4 +21,3 @@ Use [CDE](https://docs.chatopera.com/products/chatbot-platform/tutorials/3-add-s
 After importing bot, send `start` to begin the game.
 
 ![](../../assets/11.jpg)
-
