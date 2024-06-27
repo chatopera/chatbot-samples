@@ -65,7 +65,8 @@ pwd # 得到代码路径 ROOT_PATH
 接着**按照顺序，执行下面的命令**：
 
 ```
-cd {{ROOT_PATH}}/projects/GitHub工单机器人 # 使用哪个示例程序，就进入哪个示例程序路径
+#cd {{ROOT_PATH}}/projects/{{PROJECT_NAME}} # 使用哪个示例程序，就进入哪个示例程序路径
+cd {{ROOT_PATH}}/projects/GitHub工单机器人 # 比如，进入【GitHub工单机器人】 
 bot env # 自动生成 .env 文件，然后更新 .env 文件中的 BOT_CLIENT_ID 和 BOT_CLIENT_SECRET
 bot dicts --action import -f bot.dicts.json # 导出词典
 bot faq --action import -f bot.faqs.json    # 导出知识库
