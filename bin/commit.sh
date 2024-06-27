@@ -23,5 +23,5 @@ if [ ! "$1" == '' ]; then
 fi
 
 git commit -m "$msg"
-git push origin develop
-git push gitee develop
+git push origin master
+git push gitee master
