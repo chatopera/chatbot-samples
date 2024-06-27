@@ -1,1 +1,30 @@
-{"name":"SampleEnUs","primaryLanguage":"en_US","config":{},"version":"1.0.1","conversations":[{"name":"greetings","enabled":true},{"name":"guess_the_number","enabled":true}]}
+{
+  "name": "GuessNumberBot ",
+  "primaryLanguage": "en_US",
+  "created": "2024-06-27T07:32:46.385Z",
+  "modified": "2024-06-27T07:45:20.296Z",
+  "description": "示例程序，https://github.com/chatopera/chatbot-samples，误删！！",
+  "fallback": "I don't understand.",
+  "welcome": "My super power is talk.",
+  "gambitLikeThreshold": 0.8,
+  "gambitIntentQuestionMaxAttempts": 2,
+  "historyCheckpoints": 100,
+  "conversationTimeout": 1800,
+  "faqBestReplyThreshold": 0.8,
+  "faqSuggReplyThreshold": 0.5,
+  "llmBaiduErnieBot": false,
+  "config": {
+    "@SYS_INTENT_BRANCH": "dev"
+  },
+  "version": "eDOnft4Db",
+  "conversations": [
+    {
+      "name": "greetings",
+      "enabled": true
+    },
+    {
+      "name": "guess_the_number",
+      "enabled": true
+    }
+  ]
+}

@@ -6,3 +6,6 @@
 + (hello|hi)
 - hi, there
 - how are you?
+
++ __faq_hot_list
+- {keep} ^help()

@@ -2,7 +2,6 @@ let rangeMax = 100;
 let rangeMin = 1;
 let turnMax = 5;
 
-
 const secretKey = function(uid) {
     return "guess_num:secret:" + uid;
 }
@@ -77,5 +76,17 @@ exports.verifyInputAgainstSecret = async function(input) {
     }
 
     return "";
+}
 
+
+exports.help = async function() {
+    // message with button, https://dwz.chatopera.com/jQ0F9G
+    return {
+        text: "A secret number is in my hat. You guess what number it is. If your guess is too high or too low, I will give you a hint. See how many turns it takes you to win! send `start` to begin. Are you ready?",
+        params: [{
+            label: "Go",
+            type: "button",
+            text: "start"
+        }]
+    }
 }

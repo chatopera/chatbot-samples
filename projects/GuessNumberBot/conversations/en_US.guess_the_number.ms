@@ -4,7 +4,7 @@
  * https://www.funbrain.com/games/guess-the-number
  */
  
-+ __kickoff_guess_num
++ {keep} __kickoff_guess_num
 - {@__start_guess_num} ^regenSecretNumber(1,100)
 
 
@@ -12,7 +12,7 @@
 % {@__start_guess_num} ^regenSecretNumber(1,100)
 - ^verifyInputAgainstSecret(<cap1>)
 
-+ start
++ {keep} start
 - {@__kickoff_guess_num}
 
 + help
