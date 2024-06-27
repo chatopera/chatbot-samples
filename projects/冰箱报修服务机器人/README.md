@@ -1,7 +1,7 @@
 # 冰箱报修服务机器人
 <!-- 示例程序，https://github.com/chatopera/chatbot-samples，勿删！！ -->
 
->> 查看创作本机器人的背后的故事，[Chatopera 云服务实现类海尔服务智能客服的功能点比较](https://chatopera.blog.csdn.net/article/details/139992161)
+> 查看创作本机器人的背后的故事，[Chatopera 云服务实现类海尔服务智能客服的功能点比较](https://chatopera.blog.csdn.net/article/details/139992161)
 
 
 ## 体验本示例程序

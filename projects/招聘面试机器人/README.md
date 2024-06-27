@@ -1,6 +1,6 @@
 # 招聘面试机器人
 <!-- 示例程序，https://github.com/chatopera/chatbot-samples，误删！！ -->
->> 查看创作本机器人的背后的故事，[Chatopera：HR 机器人让每次面试都值得记忆](https://www.sohu.com/a/281335891_100268913)
+> 查看创作本机器人的背后的故事，[Chatopera：HR 机器人让每次面试都值得记忆](https://www.sohu.com/a/281335891_100268913)
 
 ## 体验本示例程序
 
