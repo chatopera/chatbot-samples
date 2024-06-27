@@ -44,7 +44,8 @@
 └── flow.xlsx                  # Excel 话术文件，描述对话流程，可能有
 ```
 
-## 使用 CLI 导入示例程序
+
+## 安装 CLI
 
 [CLI 命令行工具](https://docs.chatopera.com/products/chatbot-platform/references/cli.html)是自动化的脚本命令，使用 CLI 命令行工具可快速的导入或导出机器人语料。使用 CLI 工具，需要先安装依赖：
 
@@ -52,6 +53,20 @@
 * Node.js - [安装指南](https://nodejs.org/zh-cn)
 
 CLI 同时依赖操作系统的命令行终端，如 PowerShell, CMD Prompt, Bash Shell, etc.
+
+打开命令行中断，比如 PowerShell，执行 `npm --version`，确认可以看到类似的输出。
+
+![Alt text](assets/images/screenshot_20240627135527.png)
+
+证明 nodejs 已经安装成功。然后，执行：
+
+```
+npm install -g @chatopera/sdk
+```
+
+进行安装 CLI，上述命令执行后，在命令行执行 ``，确认可以看到类似这样的输出。
+
+![Alt text](assets/images/screenshot_20240627135732.png)
 
 ### 克隆代码
 
@@ -61,13 +76,9 @@ cd chatbot-samples
 pwd # 得到代码路径 ROOT_PATH
 ```
 
-### 安装 CLI
+## 使用 CLI 导入示例程序
 
-然后，执行：
-
-```
-npm install -g @chatopera/sdk
-```
+首先，[安装 CLI 和克隆代码]()，然后执行下面的步骤。
 
 ### 导入语料
 将某个示例程序，导入到一个已有的聊天机器人。假设已经在 [https://bot.chatopera.com/dashboard](https://bot.chatopera.com/dashboard) 创建了一个聊天机器人，并获得了 ClientID 和 Secret 信息。 
