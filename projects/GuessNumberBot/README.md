@@ -11,7 +11,7 @@ Open link in browser or scan QR with mobile device.
 
 Link：[https://h5.chatopera.com/im/text/1lB1ck.html](https://h5.chatopera.com/im/text/1lB1ck.html)
 
-![Alt text](assets/screenshot_20240627153349.png)
+![Alt text](assets/screenshot_20240627154900.png)
 
 ## Import chat corpus into Chatopera Bot
 Import this bot's corpus into your bot on Chatopera Cloud Service by [reading doc](https://github.com/chatopera/chatbot-samples?tab=readme-ov-file#%E4%BD%BF%E7%94%A8-cli-%E5%AF%BC%E5%85%A5%E7%A4%BA%E4%BE%8B%E7%A8%8B%E5%BA%8F).
