@@ -3,7 +3,7 @@
   "primaryLanguage": "zh_CN",
   "created": "2024-06-27T06:15:00.924Z",
   "modified": "2024-06-27T06:27:40.204Z",
-  "description": "示例程序，https://github.com/chatopera/chatbot-samples，误删！！",
+  "description": "示例程序，https://github.com/chatopera/chatbot-samples，勿删！！ ",
   "fallback": "我不明白您的意思。",
   "welcome": "你好！我是机器人客服。",
   "gambitLikeThreshold": 0.8,

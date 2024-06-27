@@ -1,0 +1,50 @@
+{
+    "name": "入门教程测试",
+    "primaryLanguage": "zh_CN",
+    "description": "示例程序，https://github.com/chatopera/chatbot-samples，勿删！！ ",
+    "fallback": "我不明白您的意思。",
+    "welcome": "你好！我是机器人客服。",
+    "trans_zhCN_ZhTw2ZhCn": false,
+    "gambitLikeThreshold": 0.8,
+    "gambitIntentQuestionMaxAttempts": 2,
+    "historyCheckpoints": 100,
+    "conversationTimeout": 1800,
+    "config": {
+        "MAIL_SERVICE": "QQex",
+        "MAIL_ACCOUNT": "webot@chatopera.com",
+        "MAIL_PASSWORD": "YOUR_PASSWORD",
+        "MAIL_RECEP": "info@chatopera.com",
+        "@SYS_INTENT_BRANCH": "dev"
+    },
+    "version": "1.0.0",
+    "conversations": [
+        {
+            "name": "background",
+            "enabled": true
+        },
+        {
+            "name": "basic",
+            "enabled": true
+        },
+        {
+            "name": "close",
+            "enabled": true
+        },
+        {
+            "name": "greetings",
+            "enabled": true
+        },
+        {
+            "name": "mental",
+            "enabled": true
+        },
+        {
+            "name": "nlp",
+            "enabled": true
+        },
+        {
+            "name": "nodejs",
+            "enabled": true
+        }
+    ]
+}

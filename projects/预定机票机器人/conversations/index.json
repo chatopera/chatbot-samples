@@ -1,9 +1,9 @@
 {
-  "name": "春松机器人",
+  "name": "预定机票机器人",
   "primaryLanguage": "zh_CN",
   "created": "2021-09-05T04:09:16.225Z",
   "modified": "2021-09-10T12:31:31.972Z",
-  "description": "对话即服务，通过 Chatopera 上线智能对话机器人！",
+  "description": "示例程序，https://github.com/chatopera/chatbot-samples，勿删！！ ",
   "fallback": "我不明白您的意思，输入“帮助”，“help”得到帮助信息。",
   "welcome": "你好！我是春松机器人。【春松机器人的对话技能为示例对话，演示程序，仅为说明机器人可以实现的功能】",
   "config": {
