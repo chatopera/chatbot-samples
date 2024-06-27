@@ -24,27 +24,6 @@
 
 [https://github.com/chatopera/docs/issues?q=label%3ASamples](https://github.com/chatopera/docs/issues?q=label%3ASamples)
 
-## 示例程序目录
-
-查看[示例程序目录](./projects)。
-
-[![Alt text](assets/images/screenshot_20240620093658.png)](./projects)
-
-每个**示例程序**按照如下的结构组织。
-
-```
-根目录
-├── README.md                  # 该项目的使用说明，必读
-├── bot.dicts.json             # 词典导入文件，包括引用词典、词汇表词典和正则表达式词典
-├── bot.faqs.json              # 知识库导入文件，包括标准问、扩展问、分类等
-├── bot.intents.json           # 意图识别导入文件，包含意图、说法、槽位等
-├── bot.conversations.c66      # 多轮对话导入文件，包含脚本、函数等
-├── conversations              # 多轮对话文件解压后的内容，.c66 文件是 zip 压缩包
-├── flow.mdj                   # UML 对话流程文件，描述对话流程，可能有
-└── flow.xlsx                  # Excel 话术文件，描述对话流程，可能有
-```
-
-
 ## 安装 CLI
 
 [CLI 命令行工具](https://docs.chatopera.com/products/chatbot-platform/references/cli.html)是自动化的脚本命令，使用 CLI 命令行工具可快速的导入或导出机器人语料。使用 CLI 工具，需要先安装依赖：
@@ -109,6 +88,26 @@ bot conversation --action export -f bot.conversations.c66
 ```
 
 ## 更多提示
+
+### 示例程序目录
+
+查看[示例程序目录](./projects)。
+
+[![Alt text](assets/images/screenshot_20240620093658.png)](./projects)
+
+每个**示例程序**按照如下的结构组织。
+
+```
+根目录
+├── README.md                  # 该项目的使用说明，必读
+├── bot.dicts.json             # 词典导入文件，包括引用词典、词汇表词典和正则表达式词典
+├── bot.faqs.json              # 知识库导入文件，包括标准问、扩展问、分类等
+├── bot.intents.json           # 意图识别导入文件，包含意图、说法、槽位等
+├── bot.conversations.c66      # 多轮对话导入文件，包含脚本、函数等
+├── conversations              # 多轮对话文件解压后的内容，.c66 文件是 zip 压缩包
+├── flow.mdj                   # UML 对话流程文件，描述对话流程，可能有
+└── flow.xlsx                  # Excel 话术文件，描述对话流程，可能有
+```
 
 ### 语料导入导出的更多介绍
 
