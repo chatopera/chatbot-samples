@@ -62,7 +62,7 @@ pwd # 得到代码路径 ROOT_PATH
 ### 导入语料
 将某个示例程序，导入到一个已有的聊天机器人。假设已经在 [https://bot.chatopera.com/dashboard](https://bot.chatopera.com/dashboard) 创建了一个聊天机器人，并获得了 ClientID 和 Secret 信息。 
 
-接着按照顺序，执行下面的命令：
+接着**按照顺序，执行下面的命令**：
 
 ```
 cd {{ROOT_PATH}}/projects/GitHub工单机器人 # 使用哪个示例程序，就进入哪个示例程序路径
