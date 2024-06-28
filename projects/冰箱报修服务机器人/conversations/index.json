@@ -2,7 +2,7 @@
   "name": "冰箱报修服务机器人",
   "primaryLanguage": "zh_CN",
   "created": "2024-06-27T08:04:10.145Z",
-  "modified": "2024-06-28T02:22:54.710Z",
+  "modified": "2024-06-28T02:27:15.880Z",
   "description": "示例程序，https://github.com/chatopera/chatbot-samples，勿删！！ ",
   "fallback": "我不明白您的意思。",
   "welcome": "你好！我是机器人客服。",
@@ -17,7 +17,7 @@
   "config": {
     "@SYS_INTENT_BRANCH": "dev"
   },
-  "version": "pVgfNgBMM",
+  "version": "F2GwlIjMN",
   "conversations": [
     {
       "name": "greetings",

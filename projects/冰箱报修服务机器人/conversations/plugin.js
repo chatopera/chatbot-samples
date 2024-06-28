@@ -122,7 +122,12 @@ exports.askBingXiangBuZhiLengJiXieShiWujiari = async function() {
     let results = await this.maestro.searchFAQs("冰箱冷藏不制冷，机械式，无假日功能", 1);
 
     return {
-        string: results[0]["replies"][0]["content"]
+        text: results[0]["replies"][0]["content"],
+        params: [{
+            label: "继续提交工单",
+            type: "button",
+            text: "继续提交工单"
+        }]
     }
 }
 
@@ -146,7 +151,12 @@ exports.askBingXiangBuZhiLengDianNaoShiWujiari = async function() {
     let results = await this.maestro.searchFAQs("冰箱冷藏不制冷，机械式，无假日功能", 1);
 
     return {
-        string: results[0]["replies"][0]["content"]
+        text: results[0]["replies"][0]["content"],
+        params: [{
+            label: "继续提交工单",
+            type: "button",
+            text: "继续提交工单"
+        }]
     }
 }
 
@@ -155,7 +165,12 @@ exports.askBingXiangBuZhiLengDianNaoShiYoujiari = async function() {
     let results = await this.maestro.searchFAQs("冰箱冷藏不制冷，机械式，无假日功能", 1);
 
     return {
-        string: results[0]["replies"][0]["content"]
+        text: results[0]["replies"][0]["content"],
+        params: [{
+            label: "继续提交工单",
+            type: "button",
+            text: "继续提交工单"
+        }]
     }
 }
 
