@@ -24,3 +24,5 @@
 ## 调试对话
 
 使用多轮对话设计器调试，见[参考文档](https://docs.chatopera.com/products/chatbot-platform/tutorials/3-add-scripts-function.html)。
+
+![Alt text](assets/screenshot_20240628102540.png)

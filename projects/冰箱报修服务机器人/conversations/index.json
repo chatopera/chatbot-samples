@@ -1,0 +1,27 @@
+{
+  "name": "冰箱报修服务机器人",
+  "primaryLanguage": "zh_CN",
+  "created": "2024-06-27T08:04:10.145Z",
+  "modified": "2024-06-28T02:22:54.710Z",
+  "description": "示例程序，https://github.com/chatopera/chatbot-samples，勿删！！ ",
+  "fallback": "我不明白您的意思。",
+  "welcome": "你好！我是机器人客服。",
+  "gambitLikeThreshold": 0.8,
+  "gambitIntentQuestionMaxAttempts": 2,
+  "historyCheckpoints": 100,
+  "conversationTimeout": 1800,
+  "faqBestReplyThreshold": 0.9,
+  "faqSuggReplyThreshold": 0.5,
+  "llmBaiduErnieBot": false,
+  "trans_zhCN_ZhTw2ZhCn": false,
+  "config": {
+    "@SYS_INTENT_BRANCH": "dev"
+  },
+  "version": "pVgfNgBMM",
+  "conversations": [
+    {
+      "name": "greetings",
+      "enabled": true
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "docId": "AZBckfZoAA2hzfST-UT2",
+    "categories": [],
+    "enabled": true,
+    "post": "冰箱冷藏不制冷，机械式，无假日功能",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "可以通过移动冷藏室温度设置滑块调节冷藏室温度。所设定的温度会在滑块左侧显示。冷藏室温度的调整范围为：2～8℃。"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "docId": "AZBcetP9AA2hzfST-UTx",
+    "categories": [],
+    "enabled": true,
+    "post": "空调不制冷问题的处理方法",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "首先找到空调遥控器，看一看空调运行模式是否在制冷模式上，客厅柜式（柱式）空调可以看一看控制面板显示的空调运行模式是否是制冷，如果空调运行模式不在制冷模式上，用空调遥控器把空调运行模式调整到制冷模式，稍等一会，空调能够正常出凉风就好了。"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "docId": "AZBceZ8JAA2hzfST-UTw",
+    "categories": [],
+    "enabled": true,
+    "post": "冰箱噪音问题的处理方法",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "冰箱噪音很多是机器共振导致，可将冰箱水平位置调好，然后将冰箱内部及周围松动的地方修整固定、杂物清理干净，防止共振。 将冰箱垫高3~6厘米，并调整四角平衡，使冰箱底部空气对流空间增大，压缩机噪音和下部其他噪音从箱体底部出来，就能减少从冰箱两侧及上部出来的噪音。"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "docId": "AZBceTB9AA2hzfST-UTv",
+    "categories": [],
+    "enabled": true,
+    "post": "空调噪音大问题的处理方法",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "针对这个问题，有以下几种解决方法： 更换隔音材料：可以在空调外机周围安装隔音材料，如泡沫板或隔音垫，以减少噪音。 您也可以安装隔音屏幕，这可以有效地减少噪音，您可以购买专业的隔音屏幕或者自己制作。 另外，拧紧外机支架螺丝也是处理空调外机噪音的有效方法之一。"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "docId": "AZBceEl0AA2hzfST-UTu",
+    "categories": [],
+    "enabled": true,
+    "post": "机器出现故障代码怎么办",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": " 空调显示ec故障的解决办法：\n       1、控制器和主机通讯故障。\n　　2、室内温度已经达到设定温度，空调就不会运行，只需要调节空调温度即可。\n　　3、控制压缩机和散热扇的接触器损坏，需要报修。\n　　4、制冷剂不足，添加即可。\n　　5、电路板损坏，无输出信号，需要报修。\n　　6、空调过热保护，停用一小时然后再启动试试。\n　　7、散热扇本身及相关线路故障，需要报修。\n　　8、请联系售后人员**检测。"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "docId": "AZBcdOJSAA2hzfST-UTt",
+    "categories": [],
+    "enabled": true,
+    "post": "冰箱不制冷问题的处理方法",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "routeDirectReply#[\"greetings\", \"冰箱不制冷\"]\n"
+      }
+    ],
+    "similarQuestions": []
+  }
+]

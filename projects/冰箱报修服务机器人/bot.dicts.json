@@ -1,0 +1,61 @@
+{
+  "sysdicts": {
+    "@ANY": {
+      "name": "@ANY",
+      "description": "任意字符串",
+      "samples": "任意字符串",
+      "createdate": "2020-03-27 14:32:20",
+      "updatedate": "2020-03-27 14:32:20",
+      "referred": false,
+      "type": "any",
+      "vendor": "Chatopera",
+      "used": null
+    },
+    "@PER": {
+      "name": "@PER",
+      "description": "人名",
+      "samples": "郭德纲;于谦",
+      "createdate": "2019-09-06 14:53:54",
+      "updatedate": "2019-12-31 14:03:20",
+      "referred": false,
+      "type": "ml",
+      "vendor": "Chatopera",
+      "used": null
+    },
+    "@TIME": {
+      "name": "@TIME",
+      "description": "时间",
+      "samples": "今天;下午一时",
+      "createdate": "2019-09-06 14:53:54",
+      "updatedate": "2019-12-31 14:03:20",
+      "referred": false,
+      "type": "ml",
+      "vendor": "Chatopera",
+      "used": null
+    },
+    "@LOC": {
+      "name": "@LOC",
+      "description": "地名",
+      "samples": "北京市;东京",
+      "createdate": "2019-09-06 14:53:54",
+      "updatedate": "2019-12-31 14:03:20",
+      "referred": false,
+      "type": "ml",
+      "vendor": "Chatopera",
+      "used": null
+    },
+    "@ORG": {
+      "name": "@ORG",
+      "description": "组织机构",
+      "samples": "北京华夏春松科技有限公司",
+      "createdate": "2019-09-06 14:53:54",
+      "updatedate": "2019-12-31 14:03:20",
+      "referred": false,
+      "type": "ml",
+      "vendor": "Chatopera",
+      "used": null
+    }
+  },
+  "patterndicts": {},
+  "vocabdicts": {}
+}
