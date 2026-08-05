@@ -57,7 +57,7 @@ pwd # 得到代码路径 ROOT_PATH
 ls projects # projects 目录内存放多个示例项目
 ```
 
-`{{ROOT_PATH}}` 是项目 [https://github.com/chatopera/chatbot-samples](https://github.com/chatopera/chatbot-samples) 存放的路径, 比如 `/c/Users/Administrator/chatbot-samples`。
+`{{ROOT_PATH}}` 是项目 [https://github.com/chatopera/chatbot-samples](https://github.com/chatopera/chatbot-samples) 存放的路径，比如 `/c/Users/Administrator/chatbot-samples`。
 
 ## 使用 CLI 导入示例程序
 
@@ -123,7 +123,7 @@ bot conversation --action export -f bot.conversations.c66
 
 ### 设置命令快捷方式
 
-在 shell profile 中设置如下命令, 比如 `~/.zshrc` or `~/.bashrc`。
+在 shell profile 中设置如下命令，比如 `~/.zshrc` or `~/.bashrc`。
 
 ```
 export CHATBOT_SAMPLES={{ROOT_PATH}}
@@ -151,3 +151,5 @@ botexport # 导出聊天机器人到语料
 
 [co-banner-image]: ./assets/8.png
 [co-url]: https://www.chatopera.com
+
+

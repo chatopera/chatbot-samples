@@ -17,3 +17,5 @@ sftp-config.json
 ~$*.doc*
 localrc
 workarea
+dist/
+DIST.md
