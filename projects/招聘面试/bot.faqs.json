@@ -1,0 +1,122 @@
+[
+  {
+    "docId": "AXRiIKd86FFxSwKKb3Jx",
+    "categories": [],
+    "enabled": true,
+    "post": "【工作岗位】开始面试",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "routeDirectReply#[\"basic\",\"__kickoff_basic_main_1\"]"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "docId": "AXRiIHPP6FFxSwKKb3Jw",
+    "categories": [],
+    "enabled": true,
+    "post": "Chatopera的公司文化",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "做用户喜爱的产品。"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "docId": "AXRiIEu86FFxSwKKb3Jv",
+    "categories": [],
+    "enabled": true,
+    "post": "__faq_hot_list",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "routeDirectReply#[\"greetings\",\"__faq_hot_list\"]"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "docId": "AXRiICfl6FFxSwKKb3Ju",
+    "categories": [],
+    "enabled": true,
+    "post": "Chatopera的福利待遇",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "五险一金"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "docId": "AXRiH_0_6FFxSwKKb3Jt",
+    "categories": [],
+    "enabled": true,
+    "post": "【工作岗位】面试自然语言处理工程师",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "routeDirectReply#[\"greetings\",\"__prepare_nlp_job_interview\"]"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "docId": "AXRiH9Kp6FFxSwKKb3Js",
+    "categories": [],
+    "enabled": true,
+    "post": "【工作岗位】介绍自然语言处理工程师",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "routeDirectReply#[\"greetings\",\"__faq_describe_nlp\"]"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "docId": "AXRiH6et6FFxSwKKb3Jr",
+    "categories": [],
+    "enabled": true,
+    "post": "【工作岗位】介绍Node.js工程师",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "routeDirectReply#[\"greetings\",\"__faq_describe_nodejs\"]"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "docId": "AXRiH1sX6FFxSwKKb3Jq",
+    "categories": [],
+    "enabled": true,
+    "post": "【工作岗位】面试Node.js工程师",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "routeDirectReply#[\"greetings\",\"__prepare_nodejs_job_interview\"]"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "docId": "AXRiHy1r6FFxSwKKb3Jp",
+    "categories": [],
+    "enabled": true,
+    "post": "Chatopera的工作机会",
+    "replies": [
+      {
+        "rtype": "plain",
+        "content": "routeDirectReply#[\"greetings\",\"__faq_job_opennings\"]"
+      }
+    ],
+    "similarQuestions": [
+      "我想应聘",
+      "有哪些工作"
+    ]
+  }
+]

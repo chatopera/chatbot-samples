@@ -1,0 +1,237 @@
+[
+  {
+    "name": "book_airplane_ticket",
+    "description": "预约飞机票",
+    "createdate": "2021-09-05 12:49:32",
+    "updatedate": "2021-09-05 12:49:41",
+    "utters": [
+      {
+        "utterance": "预约机票",
+        "createdate": "2021-09-05 12:54:15",
+        "updatedate": "2021-09-05 12:54:15"
+      },
+      {
+        "utterance": "预定飞机票",
+        "createdate": "2021-09-05 12:54:15",
+        "updatedate": "2021-09-05 12:54:15"
+      },
+      {
+        "utterance": "我想预约机票",
+        "createdate": "2021-09-05 12:54:15",
+        "updatedate": "2021-09-05 12:54:15"
+      },
+      {
+        "utterance": "我想预定机票",
+        "createdate": "2021-09-05 12:54:15",
+        "updatedate": "2021-09-05 12:54:15"
+      },
+      {
+        "utterance": "我要预约从{fromPlace}出发的机票",
+        "createdate": "2021-09-05 12:54:15",
+        "updatedate": "2021-09-05 12:54:15"
+      },
+      {
+        "utterance": "预约飞机票",
+        "createdate": "2021-09-05 12:54:15",
+        "updatedate": "2021-09-05 12:54:15"
+      },
+      {
+        "utterance": "预定机票",
+        "createdate": "2021-09-05 12:54:15",
+        "updatedate": "2021-09-05 12:54:15"
+      },
+      {
+        "utterance": "帮我预约{date}的机票",
+        "createdate": "2021-09-05 12:54:15",
+        "updatedate": "2021-09-05 12:54:15"
+      },
+      {
+        "utterance": "我想预约{date}的机票",
+        "createdate": "2021-09-05 12:54:15",
+        "updatedate": "2021-09-05 12:54:15"
+      },
+      {
+        "utterance": "我想订机票",
+        "createdate": "2021-09-07 20:04:26",
+        "updatedate": "2021-09-07 20:04:26"
+      }
+    ],
+    "slots": [
+      {
+        "name": "fromPlace",
+        "requires": true,
+        "createdate": "2021-09-05 12:54:15",
+        "updatedate": "2021-09-05 12:54:15",
+        "question": "您从哪个城市或机场出发？",
+        "dict": {
+          "name": "@LOC",
+          "builtin": true,
+          "description": "地名",
+          "samples": "北京市;东京",
+          "createdate": "2019-09-06 22:53:54",
+          "updatedate": "2019-12-31 22:03:20",
+          "type": null,
+          "vendor": null,
+          "used": null
+        }
+      },
+      {
+        "name": "date",
+        "requires": true,
+        "createdate": "2021-09-05 12:54:15",
+        "updatedate": "2021-09-07 19:15:57",
+        "question": "您的计划出发日期是什么时候?",
+        "dict": {
+          "name": "@TIME",
+          "builtin": true,
+          "description": "时间",
+          "samples": "今天;下午一时",
+          "createdate": "2019-09-06 22:53:54",
+          "updatedate": "2019-12-31 22:03:20",
+          "type": null,
+          "vendor": null,
+          "used": null
+        }
+      },
+      {
+        "name": "destPlace",
+        "requires": true,
+        "createdate": "2021-09-05 12:54:15",
+        "updatedate": "2021-09-05 12:54:15",
+        "question": "您要去的目的城市或机场是哪里？",
+        "dict": {
+          "name": "@LOC",
+          "builtin": true,
+          "description": "地名",
+          "samples": "北京市;东京",
+          "createdate": "2019-09-06 22:53:54",
+          "updatedate": "2019-12-31 22:03:20",
+          "type": null,
+          "vendor": null,
+          "used": null
+        }
+      }
+    ]
+  },
+  {
+    "name": "ask_weather",
+    "description": "查天气",
+    "createdate": "2021-09-08 10:05:23",
+    "updatedate": "2021-09-08 10:08:00",
+    "utters": [
+      {
+        "utterance": "{date}天气怎么样",
+        "createdate": "2021-09-08 10:10:06",
+        "updatedate": "2021-09-08 10:10:06"
+      },
+      {
+        "utterance": "查天气",
+        "createdate": "2021-09-08 10:10:06",
+        "updatedate": "2021-09-08 10:10:06"
+      },
+      {
+        "utterance": "{loc}{date}天气怎么样",
+        "createdate": "2021-09-08 10:10:06",
+        "updatedate": "2021-09-08 10:10:06"
+      },
+      {
+        "utterance": "我想查询天气",
+        "createdate": "2021-09-08 10:10:06",
+        "updatedate": "2021-09-08 10:10:06"
+      },
+      {
+        "utterance": "{date}{loc}天气怎么样",
+        "createdate": "2021-09-08 10:10:06",
+        "updatedate": "2021-09-08 10:10:06"
+      },
+      {
+        "utterance": "查询天气",
+        "createdate": "2021-09-08 10:10:06",
+        "updatedate": "2021-09-08 10:10:06"
+      },
+      {
+        "utterance": "{loc}的天气怎么样",
+        "createdate": "2021-09-08 10:12:17",
+        "updatedate": "2021-09-09 10:59:51"
+      },
+      {
+        "utterance": "我想查询{date}{loc}的天气",
+        "createdate": "2021-09-08 10:12:17",
+        "updatedate": "2021-09-08 10:12:17"
+      },
+      {
+        "utterance": "{loc}的天气情况",
+        "createdate": "2021-09-08 10:12:17",
+        "updatedate": "2021-09-08 10:12:17"
+      },
+      {
+        "utterance": "我想查询{loc}{date}的天气",
+        "createdate": "2021-09-08 10:12:17",
+        "updatedate": "2021-09-08 10:12:17"
+      },
+      {
+        "utterance": "我想查询{loc}的天气",
+        "createdate": "2021-09-08 10:12:17",
+        "updatedate": "2021-09-08 10:12:17"
+      },
+      {
+        "utterance": "{loc}的天气",
+        "createdate": "2021-09-08 10:12:17",
+        "updatedate": "2021-09-08 10:12:17"
+      },
+      {
+        "utterance": "{loc}{date}天气怎么演",
+        "createdate": "2021-09-09 10:59:51",
+        "updatedate": "2021-09-09 11:00:47"
+      },
+      {
+        "utterance": "{date}{loc}的天气",
+        "createdate": "2021-09-09 10:59:51",
+        "updatedate": "2021-09-09 10:59:51"
+      },
+      {
+        "utterance": "{loc}{date}天气",
+        "createdate": "2021-09-09 10:59:51",
+        "updatedate": "2021-09-09 10:59:51"
+      }
+    ],
+    "slots": [
+      {
+        "name": "loc",
+        "requires": true,
+        "createdate": "2021-09-08 10:10:06",
+        "updatedate": "2021-09-08 10:10:06",
+        "question": "您要问哪里的天气信息？",
+        "dict": {
+          "name": "@LOC",
+          "builtin": true,
+          "description": "地名",
+          "samples": "北京市;东京",
+          "createdate": "2019-09-06 22:53:54",
+          "updatedate": "2019-12-31 22:03:20",
+          "type": null,
+          "vendor": null,
+          "used": null
+        }
+      },
+      {
+        "name": "date",
+        "requires": false,
+        "createdate": "2021-09-08 10:10:06",
+        "updatedate": "2021-09-08 10:10:06",
+        "question": "",
+        "dict": {
+          "name": "@TIME",
+          "builtin": true,
+          "description": "时间",
+          "samples": "今天;下午一时",
+          "createdate": "2019-09-06 22:53:54",
+          "updatedate": "2019-12-31 22:03:20",
+          "type": null,
+          "vendor": null,
+          "used": null
+        }
+      }
+    ]
+  }
+]
